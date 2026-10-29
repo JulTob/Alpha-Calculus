@@ -1,2 +1,2 @@
-# --Calculus
+# Ɑ Calculus
 Alpha Calculus experiments and applications. 
