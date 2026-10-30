@@ -2,103 +2,106 @@
 
 Alpha Calculus experiments and applications.
 
-Representar para comprender y calcular.
+Representation for understanding and computation.
 
-Un laboratorio didáctico en español para reconocer problemas en los que
-una representación Alpha hace explícita una estructura útil. Cada caso
-parte de una situación concreta, muestra los pasos intermedios y compara
-el resultado con una solución convencional pertinente.
+An educational laboratory for recognising problems in which an Alpha
+representation makes a useful structure explicit. Each case starts with
+a concrete situation, shows the intermediate steps and compares the
+result with an appropriate conventional solution.
 
-El primer caso estudia **cadenas de ganancias positivas**. Los productos
-se convierten en sumas de logaritmos: podemos explicar contribuciones,
-actualizar una etapa y conservar el logaritmo de un total fuera del rango
-de `float`. También reproducimos una pérdida de precisión para mostrar
-cuándo conviene reconstruir el estado.
+The first case studies **chains of positive gains**. Products become
+sums of logarithms: contributions can be explained, one stage can be
+updated, and the logarithm of a total can be retained beyond the range
+of `float`. A loss of precision is also reproduced to show when the
+maintained state needs to be rebuilt.
 
-La ventaja de coste procede de conservar estado: producto/cociente ofrece
-el mismo orden de coste por actualización. No presentamos un algoritmo
-nuevo ni superioridad exclusiva de Alpha Calculus.
+The reduction in update cost comes from maintaining state: a
+product/quotient method has the same order of cost per update. This is
+not a new algorithm or an advantage exclusive to Alpha Calculus.
 
-El segundo caso estudia **leyes de potencia y elasticidad**. Pasamos de
-una curva positiva a una recta en log-log, interpretamos su pendiente y
-comprobamos por qué transformar la respuesta cambia el criterio de error.
-Las medias y medianas del modelo lognormal quedan separadas.
+The second case studies **power laws and elasticity**. A positive curve
+becomes a straight line on logarithmic axes. Its slope is interpreted,
+and the example shows why transforming the response changes the error
+criterion. The mean and median of the lognormal model are distinguished.
 
-## Empieza aquí
+## Start here
 
-Elige una aplicación: **cada cuaderno es un Colab autónomo**.
+Choose an application: **each notebook is a standalone Colab notebook**.
 
-- [Cadenas de ganancias](notebooks/cadenas_de_ganancias.ipynb):
-  composición multiplicativa, cambios locales, rango y precisión.
-  [Abrir su Colab](https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/cadenas_de_ganancias.ipynb).
-- [Potencias y elasticidad](notebooks/potencias_y_elasticidad.ipynb):
-  linealización log-log, elasticidad y supuestos del ajuste.
-  [Abrir su Colab](https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/potencias_y_elasticidad.ipynb).
+- [Gain chains](notebooks/gain_chains.ipynb): multiplicative composition,
+  local changes, numerical range and precision.
+  [Open in Colab](https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/gain_chains.ipynb).
+- [Power laws and elasticity](notebooks/power_laws_and_elasticity.ipynb):
+  log-log linearisation, elasticity and fitting assumptions.
+  [Open in Colab](https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/power_laws_and_elasticity.ipynb).
 
-Puedes subir cualquiera de los dos por separado. Sólo necesita Python
-3.10 o posterior y su biblioteca estándar. No depende del otro cuaderno
-ni descarga libros; tampoco usa datos privados ni solicita acceso a Drive.
+Either notebook can be uploaded on its own. It requires only Python
+3.10 or later and the standard library. It does not depend on the other
+notebook, download books, use private data or request access to Drive.
 
-Cada enlace de Colab abre únicamente la aplicación elegida desde la rama
-`main` de [JulTob/--Calculus](https://github.com/JulTob/--Calculus).
-Después, selecciona **Entorno de ejecución → Ejecutar todas**. También
-puedes descargar un `.ipynb` y usar **Archivo → Subir cuaderno**.
-[Colab documenta la carga de cuadernos y su formato
-Jupyter](https://research.google.com/colaboratory/faq.html).
+Each Colab link opens the selected application from the `main` branch of
+[JulTob/--Calculus](https://github.com/JulTob/--Calculus). Select
+**Runtime → Run all**. Alternatively, download an `.ipynb` file and select
+**File → Upload notebook**.
+[Colab documents notebook uploads and the Jupyter
+format](https://research.google.com/colaboratory/faq.html).
 
-## Qué aprenderás
+## Learning objectives
 
-1. Reconocer la operación de composición y elegir coordenadas coherentes.
-2. Separar igualdad matemática, representación numérica y supuesto de modelo.
-3. Comparar una propuesta Alpha con un baseline competente.
-4. Verificar el ejemplo, sus dominios y sus límites.
+1. Recognise the composition operation and choose consistent coordinates.
+2. Distinguish mathematical equality, numerical representation and model
+   assumptions.
+3. Compare an Alpha proposal with a competent baseline.
+4. Check the example, its domains and its limitations.
 
-La ruta de lectura es **situación → reconocimiento → supuestos → pasos →
-ejemplo → comprobación y límites**. Se presupone manejo de logaritmos,
-funciones y Python básico.
+The reading sequence is **situation → recognition → assumptions → steps →
+example → checks and limitations**. Familiarity with logarithms,
+functions and basic Python is assumed.
 
-## Reproducir localmente
+## Reproduce locally
 
-Desde esta carpeta:
-
-```sh
-python3 -B scripts/ejecutar_notebook.py
-```
-
-Sin argumentos ejecuta ambos, cada uno en un proceso nuevo. Para ejecutar
-sólo una aplicación:
+From this directory:
 
 ```sh
-python3 -B scripts/ejecutar_notebook.py ganancias
-python3 -B scripts/ejecutar_notebook.py potencias
+python3 -B scripts/run_notebooks.py
 ```
 
-El programa ejecuta las celdas Python en orden y conserva sus salidas en
-cada cuaderno. Es un ejecutor local: no arranca un kernel Jupyter ni prueba
-un servidor Colab. Los cuadernos evitan magias y sintaxis exclusiva de IPython.
+With no arguments, the runner executes both notebooks, each in a new
+process. To run a single application:
 
-Los resultados numéricos, tablas CSV y registros se separan por aplicación
-en `resultados/cadenas_de_ganancias/` y `resultados/potencias_y_elasticidad/`.
-El registro de ejecución identifica el runtime y el hash del cuaderno
-ejecutado. Consulta [los resultados](docs/resultados.md),
-[el entorno](docs/entorno.md) y
-[las fuentes y su alcance](docs/fuentes.md).
+```sh
+python3 -B scripts/run_notebooks.py gains
+python3 -B scripts/run_notebooks.py power-laws
+```
 
-## Lectura y reutilización por agentes
+The runner executes the Python cells in order and saves their outputs
+in each notebook. It is a local runner: it does not start a Jupyter
+kernel or test a Colab server. The notebooks avoid IPython magics and
+syntax specific to IPython.
 
-El [índice por conceptos](docs/indice.md) orienta a Alphy y a otros
-agentes hacia definiciones, ejemplos, evidencia y límites. El catálogo
-[sources.json](sources.json) permite localizar esas fuentes sin confundir
-referencias primarias con notas y demostraciones originales.
+Numerical results, CSV tables and records are stored separately in
+`results/gain_chains/` and `results/power_laws_and_elasticity/`.
+Each execution record identifies the runtime and the hash of the
+executed notebook. See the [results](docs/results.md),
+[environment](docs/environment.md) and
+[sources and their scope](docs/sources.md).
 
-## Estado editorial
+## Reading and reuse by agents
 
-Este es el repositorio [JulTob/--Calculus](https://github.com/JulTob/--Calculus).
-Los dos casos son demostraciones didácticas reproducibles; todavía no
-hay datos empíricos que validen una aplicación concreta. Las ampliaciones
-y posibles entradas de wiki se preparan para revisión de Julio, siguiendo
-el [proceso de propuesta](docs/indice.md#proponer-contenido-reutilizable).
+The [concept index](docs/index.md) directs Alphy and other agents to
+definitions, examples, evidence and limitations. The
+[sources.json](sources.json) catalogue locates these sources and
+distinguishes primary references from original notes and demonstrations.
 
-No se ha probado una sesión Colab en vivo. No se ha elegido licencia ni
-se distribuye el texto completo del libro. El manifiesto describe una
-instantánea de archivos; véase [cómo mantenerla](docs/entorno.md#instantáneas-y-registros).
+## Editorial status
+
+This is the [JulTob/--Calculus](https://github.com/JulTob/--Calculus)
+repository. Both cases are reproducible educational demonstrations;
+there are no empirical data validating a specific application yet.
+Extensions and potential Wiki entries are prepared for Julio's review
+under the [proposal process](docs/index.md#proposing-reusable-material).
+
+No live Colab session has been tested. No licence has been selected, and
+the full text of the book is not distributed. The manifest describes a
+file snapshot; see [how to maintain it](docs/environment.md#snapshots-and-execution-records).
+The repository follows the [editorial style](docs/editorial_style.md).

@@ -2,31 +2,31 @@
   "schema_version": 1,
   "repository": "https://github.com/JulTob/--Calculus",
   "default_branch": "main",
-  "entrypoint": "docs/indice.md",
-  "provenance_guide": "docs/fuentes.md",
-  "evidence_guide": "docs/resultados.md",
+  "entrypoint": "docs/index.md",
+  "provenance_guide": "docs/sources.md",
+  "evidence_guide": "docs/results.md",
   "concepts": [
     {
-      "id": "composicion-positiva-y-estado",
+      "id": "positive-composition-and-state",
       "concepts": [
-        "Generador exponencial y suma transportada",
-        "Cadenas positivas, rango y cancelación"
+        "Exponential generator and transported addition",
+        "Positive gain chains, numerical range and cancellation"
       ],
-      "notebook": "notebooks/cadenas_de_ganancias.ipynb",
-      "colab": "https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/cadenas_de_ganancias.ipynb",
-      "evidence_directory": "resultados/cadenas_de_ganancias",
+      "notebook": "notebooks/gain_chains.ipynb",
+      "colab": "https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/gain_chains.ipynb",
+      "evidence_directory": "results/gain_chains",
       "status": "demonstrated-in-examples",
       "limits": "Positive factors; power-of-two workload; no general error bound or exclusive complexity gain."
     },
     {
-      "id": "potencias-elasticidad-y-modelo",
+      "id": "power-laws-and-model-assumptions",
       "concepts": [
-        "Transporte de funciones y elasticidad",
-        "Criterio de error, media y mediana"
+        "Function transport and elasticity",
+        "Error criteria, mean and median"
       ],
-      "notebook": "notebooks/potencias_y_elasticidad.ipynb",
-      "colab": "https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/potencias_y_elasticidad.ipynb",
-      "evidence_directory": "resultados/potencias_y_elasticidad",
+      "notebook": "notebooks/power_laws_and_elasticity.ipynb",
+      "colab": "https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/power_laws_and_elasticity.ipynb",
+      "evidence_directory": "results/power_laws_and_elasticity",
       "status": "demonstrated-in-examples",
       "limits": "Positive dimensionless ratios; fixed demonstration data; no empirical model validation."
     }
@@ -38,7 +38,7 @@
       "title": "Georgiev and Aydin, Alpha Calculus (2026)",
       "url": "https://doi.org/10.1201/9781003750734",
       "scope": "Printed pp. 1–2, 128, 169–170; local annotations also discuss p. 266.",
-      "local_guide": "docs/fuentes.md",
+      "local_guide": "docs/sources.md",
       "full_text_distributed": false
     },
     {
@@ -60,7 +60,7 @@
       "role": "external-primary-reference",
       "title": "NIST/SEMATECH: Lognormal Distribution",
       "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3669.htm",
-      "scope": "Parameterization and common statistics."
+      "scope": "Parametrisation and common statistics."
     },
     {
       "id": "nist-transformations",
@@ -79,17 +79,24 @@
     {
       "id": "local-annotations",
       "role": "original-local-notes",
-      "path": "docs/correcciones.md",
+      "path": "docs/local_annotations.md",
       "scope": "Reader annotations pending editorial confirmation; not official errata."
     },
     {
       "id": "application-demonstrations",
       "role": "original-didactic-work",
       "paths": [
-        "notebooks/cadenas_de_ganancias.ipynb",
-        "notebooks/potencias_y_elasticidad.ipynb"
+        "notebooks/gain_chains.ipynb",
+        "notebooks/power_laws_and_elasticity.ipynb"
       ],
       "scope": "Derivations, examples, code and generated results; not cases attributed to the book."
+    },
+    {
+      "id": "eu-english-style",
+      "role": "editorial-reference",
+      "title": "European Commission English Style Guide (21 November 2025)",
+      "url": "https://knowledge-centre-translation-interpretation.ec.europa.eu/sites/default/files/ckeditor5-files/styleguide_english_dgt_en.pdf",
+      "scope": "Introduction, General1.1 and Spelling3.1-3.4: clear international prose, Irish/British usage and consistent -ise spelling. General language conventions applied alongside scientific terminology."
     }
   ],
   "proposals": {
@@ -98,14 +105,16 @@
       "Public gain-chain workload and reconstruction policy",
       "Empirical power-law model with public data and justified noise"
     ],
-    "review_process": "docs/indice.md#proponer-contenido-reutilizable",
+    "review_process": "docs/index.md#proposing-reusable-material",
     "wiki_publication_authority": "Julio"
   },
   "execution": {
-    "runner": "scripts/ejecutar_notebook.py",
-    "environment": "docs/entorno.md",
+    "runner": "scripts/run_notebooks.py",
+    "environment": "docs/environment.md",
     "manifest": "manifest.json",
     "live_colab_execution": false,
     "installed_agent_tested": false
-  }
+  },
+  "language": "en-GB",
+  "editorial_policy": "docs/editorial_style.md"
 }

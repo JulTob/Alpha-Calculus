@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "application": "power_laws_and_elasticity",
+  "notebook": "notebooks/power_laws_and_elasticity.ipynb",
+  "utc": "2026-10-30T10:36:59.314457+00:00",
+  "python": "3.14.3",
+  "implementation": "CPython",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "code_cells_executed": 13,
+  "elapsed_seconds": 0.02050379099091515,
+  "notebook_sha256": "1f917603e5960406fd7fa04c2b954b3448fb68a002a46cdeab7983ec96e09dc5",
+  "mode": "Sequential Python exec in a fresh namespace; no Jupyter kernel.",
+  "colab_live_execution": false
+}

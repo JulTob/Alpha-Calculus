@@ -1,0 +1,4 @@
+case,direct,log_total,return
+Large,inf,921.034037,Overflow
+Small,0.0,-921.034037,Underflow to zero
+Balanced,inf,0.000000,1

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "application": "gain_chains",
+  "python": "3.14.3",
+  "replacements": 256,
+  "factors": 16,
+  "seed": 975,
+  "workload": "Powers of two, integer exponents from -3 to 3.",
+  "max_log_relative_error": 2.886579864025407e-15,
+  "example_30_to_40": 40.0,
+  "incremental_cancellation": 1.0,
+  "rebuilt_cancellation": 1.00000000000001
+}

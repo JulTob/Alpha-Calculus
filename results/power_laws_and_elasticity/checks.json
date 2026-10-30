@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "application": "power_laws_and_elasticity",
+  "python": "3.14.3",
+  "A_noiseless": 3.000000000000001,
+  "b_noiseless": 1.5,
+  "A_fixed_errors": 3.1538132891280717,
+  "b_fixed_errors": 1.4899999999999998,
+  "original_criterion": 4.0,
+  "log_criterion": 2.620741394208897,
+  "negative_domain_rejected": true,
+  "empirical_model_validated": false
+}

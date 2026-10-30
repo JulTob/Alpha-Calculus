@@ -1,2 +1,2 @@
-# El tutorial y el ejecutor sólo usan la biblioteca estándar de Python.
-# Python >= 3.10. No es necesario ejecutar pip install para estos casos.
+# The notebooks and runner use only the Python standard library.
+# Python >= 3.10. No third-party packages are required.
