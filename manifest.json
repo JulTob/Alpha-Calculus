@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/JulTob/--Calculus",
+  "repository": "https://github.com/JulTob/Alpha-Calculus",
   "default_branch": "main",
   "status": "English scientific educational demonstrations; empirical applications remain proposed.",
   "snapshot": {
@@ -28,7 +28,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "e1a6d3dd4b92b310bebc487d0fe5c1f4bebb0f08925751ce0f8ddd73779a38cb"
+      "sha256": "2ec1c388122f4dd8984ae7119a6fd91b4e09c4e6fc2dbf2767d2e427fd531c21"
     },
     {
       "path": "docs/editorial_style.md",
@@ -40,7 +40,7 @@
     },
     {
       "path": "docs/index.md",
-      "sha256": "7f51da2190cc98bbb821b758feb8708e25995d3a39de2ceae777e302820f7114"
+      "sha256": "98f9c3cf2d05fa931268fa687b2cfe5e4e01d2ac85ddc5886d15f3fc8e443288"
     },
     {
       "path": "docs/local_annotations.md",
@@ -124,7 +124,7 @@
     },
     {
       "path": "sources.json",
-      "sha256": "2fc1c9f5e5497c31f375935526f71d488562449646ecc2f6610f98bc492d8956"
+      "sha256": "8a146615d6296d006fcac217817aaae993a8ada202cfe1cfd2201b5eac4be998"
     }
   ],
   "language": "en-GB",

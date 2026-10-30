@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "repository": "https://github.com/JulTob/--Calculus",
+  "repository": "https://github.com/JulTob/Alpha-Calculus",
   "default_branch": "main",
   "entrypoint": "docs/index.md",
   "provenance_guide": "docs/sources.md",
@@ -13,7 +13,7 @@
         "Positive gain chains, numerical range and cancellation"
       ],
       "notebook": "notebooks/gain_chains.ipynb",
-      "colab": "https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/gain_chains.ipynb",
+      "colab": "https://colab.research.google.com/github/JulTob/Alpha-Calculus/blob/main/notebooks/gain_chains.ipynb",
       "evidence_directory": "results/gain_chains",
       "status": "demonstrated-in-examples",
       "limits": "Positive factors; power-of-two workload; no general error bound or exclusive complexity gain."
@@ -25,7 +25,7 @@
         "Error criteria, mean and median"
       ],
       "notebook": "notebooks/power_laws_and_elasticity.ipynb",
-      "colab": "https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/power_laws_and_elasticity.ipynb",
+      "colab": "https://colab.research.google.com/github/JulTob/Alpha-Calculus/blob/main/notebooks/power_laws_and_elasticity.ipynb",
       "evidence_directory": "results/power_laws_and_elasticity",
       "status": "demonstrated-in-examples",
       "limits": "Positive dimensionless ratios; fixed demonstration data; no empirical model validation."

@@ -30,17 +30,17 @@ Choose an application: **each notebook is a standalone Colab notebook**.
 
 - [Gain chains](notebooks/gain_chains.ipynb): multiplicative composition,
   local changes, numerical range and precision.
-  [Open in Colab](https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/gain_chains.ipynb).
+  [Open in Colab](https://colab.research.google.com/github/JulTob/Alpha-Calculus/blob/main/notebooks/gain_chains.ipynb).
 - [Power laws and elasticity](notebooks/power_laws_and_elasticity.ipynb):
   log-log linearisation, elasticity and fitting assumptions.
-  [Open in Colab](https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/power_laws_and_elasticity.ipynb).
+  [Open in Colab](https://colab.research.google.com/github/JulTob/Alpha-Calculus/blob/main/notebooks/power_laws_and_elasticity.ipynb).
 
 Either notebook can be uploaded on its own. It requires only Python
 3.10 or later and the standard library. It does not depend on the other
 notebook, download books, use private data or request access to Drive.
 
 Each Colab link opens the selected application from the `main` branch of
-[JulTob/--Calculus](https://github.com/JulTob/--Calculus). Select
+[JulTob/Alpha-Calculus](https://github.com/JulTob/Alpha-Calculus). Select
 **Runtime → Run all**. Alternatively, download an `.ipynb` file and select
 **File → Upload notebook**.
 [Colab documents notebook uploads and the Jupyter
@@ -95,7 +95,7 @@ distinguishes primary references from original notes and demonstrations.
 
 ## Editorial status
 
-This is the [JulTob/--Calculus](https://github.com/JulTob/--Calculus)
+This is the [JulTob/Alpha-Calculus](https://github.com/JulTob/Alpha-Calculus)
 repository. Both cases are reproducible educational demonstrations;
 there are no empirical data validating a specific application yet.
 Extensions and potential Wiki entries are prepared for Julio's review

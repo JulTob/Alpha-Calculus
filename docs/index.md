@@ -1,6 +1,6 @@
 # Concept index for Alphy and other agents
 
-Working source: [JulTob/--Calculus](https://github.com/JulTob/--Calculus),
+Working source: [JulTob/Alpha-Calculus](https://github.com/JulTob/Alpha-Calculus),
 `main` branch. Read by concept and check the scope of the evidence before
 reusing a claim. This index guides consultation of the content; it does
 not establish that an agent is installed or has executed.
