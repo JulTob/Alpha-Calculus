@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "applications": {
+    "cadenas_de_ganancias": {
+      "status": "passed",
+      "total_cells": 20,
+      "code_cells": 10,
+      "notebook_sha256": "3dcf8d9551d02830a8e448044061ec2d0ee9dcfd9c37a9089d9c86453c794dec"
+    },
+    "potencias_y_elasticidad": {
+      "status": "passed",
+      "total_cells": 23,
+      "code_cells": 13,
+      "notebook_sha256": "440219844e023c1fc29f6df05230098fe36749cd88310bc2d7051a657a0ffbcb"
+    }
+  },
+  "unique_cell_ids": true,
+  "executed_in_order": true,
+  "saved_errors": 0,
+  "code_lines_over_88_columns": [],
+  "relative_document_links_resolve": true,
+  "combined_notebook_delivered": false,
+  "absolute_workspace_paths_in_notebooks": false,
+  "execution_hashes_match": true,
+  "official_nbformat_schema_validation": false,
+  "scope": "Structural and portability checks; nbformat package unavailable."
+}

@@ -1,0 +1,2 @@
+# El tutorial y el ejecutor sólo usan la biblioteca estándar de Python.
+# Python >= 3.10. No es necesario ejecutar pip install para estos casos.

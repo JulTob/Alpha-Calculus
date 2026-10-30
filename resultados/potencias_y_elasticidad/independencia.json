@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "application": "potencias_y_elasticidad",
+  "mode": "Only this notebook copied into an empty directory; all cells run in a new process.",
+  "code_cells_executed": 13,
+  "notebook_sha256": "440219844e023c1fc29f6df05230098fe36749cd88310bc2d7051a657a0ffbcb",
+  "other_notebook_required": false,
+  "workspace_files_required": false,
+  "book_pdf_required": false,
+  "other_application_results_created": false,
+  "colab_live_execution": false
+}

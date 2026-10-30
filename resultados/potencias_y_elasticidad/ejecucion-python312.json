@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "application": "potencias_y_elasticidad",
+  "notebook": "notebooks/potencias_y_elasticidad.ipynb",
+  "utc": "2026-10-29T22:05:37.253872+00:00",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "code_cells_executed": 13,
+  "elapsed_seconds": 0.020148874988080934,
+  "notebook_sha256": "9c52562b82a5e789da5a10159a5d1a678537541a5f16a4d7bf8c5c719b6defec",
+  "mode": "Sequential Python exec in a fresh namespace; no Jupyter kernel.",
+  "colab_live_execution": false
+}

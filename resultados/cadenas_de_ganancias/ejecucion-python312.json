@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "application": "cadenas_de_ganancias",
+  "notebook": "notebooks/cadenas_de_ganancias.ipynb",
+  "utc": "2026-10-29T22:05:37.147816+00:00",
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "code_cells_executed": 10,
+  "elapsed_seconds": 0.03998466700431891,
+  "notebook_sha256": "aba3869de34707b3737f13ab91d93827c42f61a256796075810750f49006d496",
+  "mode": "Sequential Python exec in a fresh namespace; no Jupyter kernel.",
+  "colab_live_execution": false
+}

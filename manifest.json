@@ -1,0 +1,142 @@
+{
+  "repository": "https://github.com/JulTob/--Calculus",
+  "default_branch": "main",
+  "status": "Educational demonstrations; empirical applications remain proposed.",
+  "snapshot": {
+    "hash_algorithm": "sha256",
+    "scope": "Reviewed file bytes, excluding manifest.json and .git.",
+    "refresh": "Explicit after reviewed changes; runner does not refresh this manifest.",
+    "guide": "docs/entorno.md#instantáneas-y-registros"
+  },
+  "applications": [
+    "cadenas_de_ganancias",
+    "potencias_y_elasticidad"
+  ],
+  "source_catalog": "sources.json",
+  "independent_notebooks": true,
+  "license": "Not selected by the user.",
+  "book_pdf_distributed": false,
+  "live_colab_execution": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "dc52e67c7779612ee22a4b2ec51f09968b158bf0abffce41dc58b922c2d5ce32"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5393805d4e8f9a3dcaf18e4f9f86f89240a6a9556c0045d6999f180ed83a34a4"
+    },
+    {
+      "path": "docs/correcciones.md",
+      "sha256": "ecf17f879139ebe39752f34152a379f21c4b534bf589faccd8387cd97c612c5f"
+    },
+    {
+      "path": "docs/entorno.md",
+      "sha256": "9b9eb0c638a3b00d698a3db99cb0c5747c36954f70347734fc10e3a5483ea190"
+    },
+    {
+      "path": "docs/fuentes.md",
+      "sha256": "9a956f982f590166db67006ffad97e03967bb9b7e00fa5de009c04663360d88c"
+    },
+    {
+      "path": "docs/indice.md",
+      "sha256": "45d2a128e6ddd115f543d9ee53246831c8e67860a1b45baad66ce6811f3dcf6f"
+    },
+    {
+      "path": "docs/resultados.md",
+      "sha256": "379fc3bcf6d5aeabd30336044c16c71be7c80f3288fe3e7b5e2407f1537e2072"
+    },
+    {
+      "path": "notebooks/cadenas_de_ganancias.ipynb",
+      "sha256": "3dcf8d9551d02830a8e448044061ec2d0ee9dcfd9c37a9089d9c86453c794dec"
+    },
+    {
+      "path": "notebooks/potencias_y_elasticidad.ipynb",
+      "sha256": "440219844e023c1fc29f6df05230098fe36749cd88310bc2d7051a657a0ffbcb"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "5eb35a09f0d5677e0a39503cfb5f64cb98fd419d597290f8452701746dd8ebc4"
+    },
+    {
+      "path": "resultados/cadenas_de_ganancias/comprobaciones.json",
+      "sha256": "d70a847f082f497c8be8d358513908c04a51dca64e72a857309d0bfe071fca62"
+    },
+    {
+      "path": "resultados/cadenas_de_ganancias/ejecucion-python312.json",
+      "sha256": "474d26317d25976da93733ab4c07618f40ff4397c22b55b555098c167dab81a5"
+    },
+    {
+      "path": "resultados/cadenas_de_ganancias/ejecucion-python314.json",
+      "sha256": "c56389e0d208bb22a81e9cbfffca63af6e05254003851dfb6adef350737ac1da"
+    },
+    {
+      "path": "resultados/cadenas_de_ganancias/ejecucion.json",
+      "sha256": "c56389e0d208bb22a81e9cbfffca63af6e05254003851dfb6adef350737ac1da"
+    },
+    {
+      "path": "resultados/cadenas_de_ganancias/ganancias-etapas.csv",
+      "sha256": "553a3bad730b1d8ce9d2cdb1339c75a4c792ab79333a2959ccf907cfb496f95c"
+    },
+    {
+      "path": "resultados/cadenas_de_ganancias/ganancias-rango.csv",
+      "sha256": "eeda8b55bd8f3c00eabd02e9ab9600fa380d55f869c75de1c547d9613d41f4e6"
+    },
+    {
+      "path": "resultados/cadenas_de_ganancias/independencia.json",
+      "sha256": "786b25f4d2d15ec5d93ed59d162e49ef19510a196a4f9761b628375d7c501527"
+    },
+    {
+      "path": "resultados/estructura-portabilidad.json",
+      "sha256": "a85614ca882a65517b094d097d568baeb435874a6de65353c96c684086735f27"
+    },
+    {
+      "path": "resultados/portabilidad-zip.json",
+      "sha256": "c0364c9ff442416255a58ad49ac5a05a82e7a6956094c0894c8bbbac4a063f12"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/comprobaciones.json",
+      "sha256": "37e2668ea7fd1b4b945c23f414827cab3736e08380a926a8912e636c6de5a019"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/ejecucion-python312.json",
+      "sha256": "b4d580d5c5cee14744cf011159e0d746d47a2ff0b88ffbdd69841b4043fb7ae9"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/ejecucion-python314.json",
+      "sha256": "f93704cd4a809a4b6e197e7b27245019e8090a0b432278b8cb02854de6fc995a"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/ejecucion.json",
+      "sha256": "f93704cd4a809a4b6e197e7b27245019e8090a0b432278b8cb02854de6fc995a"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/independencia.json",
+      "sha256": "c2172ae37e543eed70e5b903693b0157fd16f94e5eea1ec71cf1f40186606d40"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/potencia-ajuste.csv",
+      "sha256": "ebbdc0ecda942181b9a5fd7c55aeb340a80e65482efcb9116dcfc35aa001f41a"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/potencia-coordenadas.csv",
+      "sha256": "3454e6dab0b6dc487e86ac286cf83d1f5e5e862d6901d98c0755ef749747d7ea"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/potencia-criterios.csv",
+      "sha256": "ae0bb897721c55220efa4a9cfb505437aada438c4a78731b893d33cc7647ed50"
+    },
+    {
+      "path": "resultados/potencias_y_elasticidad/potencia-media-mediana.csv",
+      "sha256": "49ccd992f79c6e84fc17972ef39a041d4b34fea9a56c3297d1ba07c83636c115"
+    },
+    {
+      "path": "scripts/ejecutar_notebook.py",
+      "sha256": "352987f3bc9571a6b15691e93aff6fb15e5c3d0d9b500dfc32189ac1e4269f48"
+    },
+    {
+      "path": "sources.json",
+      "sha256": "2ec61aa655313b63a52ef048f5232de73ea101f1bd50acb85f3af470912e4f89"
+    }
+  ]
+}

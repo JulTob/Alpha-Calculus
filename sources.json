@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/JulTob/--Calculus",
+  "default_branch": "main",
+  "entrypoint": "docs/indice.md",
+  "provenance_guide": "docs/fuentes.md",
+  "evidence_guide": "docs/resultados.md",
+  "concepts": [
+    {
+      "id": "composicion-positiva-y-estado",
+      "concepts": [
+        "Generador exponencial y suma transportada",
+        "Cadenas positivas, rango y cancelación"
+      ],
+      "notebook": "notebooks/cadenas_de_ganancias.ipynb",
+      "colab": "https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/cadenas_de_ganancias.ipynb",
+      "evidence_directory": "resultados/cadenas_de_ganancias",
+      "status": "demonstrated-in-examples",
+      "limits": "Positive factors; power-of-two workload; no general error bound or exclusive complexity gain."
+    },
+    {
+      "id": "potencias-elasticidad-y-modelo",
+      "concepts": [
+        "Transporte de funciones y elasticidad",
+        "Criterio de error, media y mediana"
+      ],
+      "notebook": "notebooks/potencias_y_elasticidad.ipynb",
+      "colab": "https://colab.research.google.com/github/JulTob/--Calculus/blob/main/notebooks/potencias_y_elasticidad.ipynb",
+      "evidence_directory": "resultados/potencias_y_elasticidad",
+      "status": "demonstrated-in-examples",
+      "limits": "Positive dimensionless ratios; fixed demonstration data; no empirical model validation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "alpha-calculus-2026",
+      "role": "external-primary-reference",
+      "title": "Georgiev and Aydin, Alpha Calculus (2026)",
+      "url": "https://doi.org/10.1201/9781003750734",
+      "scope": "Printed pp. 1–2, 128, 169–170; local annotations also discuss p. 266.",
+      "local_guide": "docs/fuentes.md",
+      "full_text_distributed": false
+    },
+    {
+      "id": "python-math",
+      "role": "external-primary-reference",
+      "title": "Python 3.14 math documentation",
+      "url": "https://docs.python.org/3.14/library/math.html",
+      "scope": "log, exp, fsum, prod, isclose and implementation limits."
+    },
+    {
+      "id": "nist-power-calibration",
+      "role": "external-primary-reference",
+      "title": "NIST/SEMATECH: Models for instrument calibration",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc361.htm",
+      "scope": "Power model treated as a linear model."
+    },
+    {
+      "id": "nist-lognormal",
+      "role": "external-primary-reference",
+      "title": "NIST/SEMATECH: Lognormal Distribution",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3669.htm",
+      "scope": "Parameterization and common statistics."
+    },
+    {
+      "id": "nist-transformations",
+      "role": "external-primary-reference",
+      "title": "NIST/SEMATECH: Accounting for Errors with a Non-Normal Distribution",
+      "url": "https://www.itl.nist.gov/div898/handbook/pmd/section4/pmd453.htm",
+      "scope": "Using Transformations."
+    },
+    {
+      "id": "colab-faq",
+      "role": "external-primary-reference",
+      "title": "Google Colab FAQ",
+      "url": "https://research.google.com/colaboratory/faq.html",
+      "scope": "Notebook loading, shared outputs and runtimes; no live Colab test claimed."
+    },
+    {
+      "id": "local-annotations",
+      "role": "original-local-notes",
+      "path": "docs/correcciones.md",
+      "scope": "Reader annotations pending editorial confirmation; not official errata."
+    },
+    {
+      "id": "application-demonstrations",
+      "role": "original-didactic-work",
+      "paths": [
+        "notebooks/cadenas_de_ganancias.ipynb",
+        "notebooks/potencias_y_elasticidad.ipynb"
+      ],
+      "scope": "Derivations, examples, code and generated results; not cases attributed to the book."
+    }
+  ],
+  "proposals": {
+    "status": "proposed",
+    "directions": [
+      "Public gain-chain workload and reconstruction policy",
+      "Empirical power-law model with public data and justified noise"
+    ],
+    "review_process": "docs/indice.md#proponer-contenido-reutilizable",
+    "wiki_publication_authority": "Julio"
+  },
+  "execution": {
+    "runner": "scripts/ejecutar_notebook.py",
+    "environment": "docs/entorno.md",
+    "manifest": "manifest.json",
+    "live_colab_execution": false,
+    "installed_agent_tested": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "mode": "ZIP extracted separately for each application into an empty directory, then selected notebook executed in a new process.",
+  "applications": {
+    "cadenas_de_ganancias": {
+      "status": "passed",
+      "code_cells_executed": 10,
+      "notebook_sha256": "3dcf8d9551d02830a8e448044061ec2d0ee9dcfd9c37a9089d9c86453c794dec"
+    },
+    "potencias_y_elasticidad": {
+      "status": "passed",
+      "code_cells_executed": 13,
+      "notebook_sha256": "440219844e023c1fc29f6df05230098fe36749cd88310bc2d7051a657a0ffbcb"
+    }
+  },
+  "python": "3.14.3",
+  "book_pdf_required": false,
+  "workspace_files_required": false,
+  "runner_sha256": "352987f3bc9571a6b15691e93aff6fb15e5c3d0d9b500dfc32189ac1e4269f48",
+  "zip_crc_check": "passed",
+  "colab_live_execution": false
+}

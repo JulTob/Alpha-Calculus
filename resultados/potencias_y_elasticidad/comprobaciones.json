@@ -1,0 +1,13 @@
+{
+  "estado": "passed",
+  "aplicacion": "potencias_y_elasticidad",
+  "python": "3.14.3",
+  "A_sin_ruido": 3.000000000000001,
+  "b_sin_ruido": 1.5,
+  "A_errores_fijos": 3.1538132891280717,
+  "b_errores_fijos": 1.4899999999999998,
+  "criterio_original": 4.0,
+  "criterio_log": 2.620741394208897,
+  "dominio_negativo_rechazado": true,
+  "modelo_empirico_validado": false
+}

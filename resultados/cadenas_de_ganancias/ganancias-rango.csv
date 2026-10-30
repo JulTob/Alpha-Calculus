@@ -1,0 +1,4 @@
+caso,directo,log_total,retorno
+Grande,inf,921.034037,Desbordamiento
+Pequeño,0.0,-921.034037,Subdesbordamiento a cero
+Compensado,inf,0.000000,1
