@@ -122,6 +122,9 @@ The [concept index](CONCEPTS.md) directs Alphy and other agents to
 definitions, examples, evidence and limitations. The
 [sources.json](sources.json) catalogue locates these sources and
 distinguishes primary references from original notes and demonstrations.
+The [shared-library review](LIBRARY.md) records Professor's source and
+teaching assessment, the Alpha specialist's material assessment and the
+next resources needed for the declared uses.
 
 ## Editorial status
 

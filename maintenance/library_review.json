@@ -1,0 +1,444 @@
+{
+  "reviewed_commit": "3c7c8235e12bff89a14f57b6f480d70c7557e94f",
+  "review_date": "2026-10-30",
+  "repository": "https://github.com/JulTob/Alpha-Calculus",
+  "execution_mode": "Two bounded same-model workers with distinct criteria; not installed-plugin execution or independent-model corroboration.",
+  "professor": {
+    "reviewer": {
+      "role": "Professor-method temporary reviewer",
+      "method_package": "professor 0.4.1",
+      "execution_mode": "Real same-model bounded worker",
+      "installed_plugin_execution": false,
+      "separate_model_independence": false,
+      "self_review": true
+    },
+    "overall_status": "suitable-for-declared-bounded-teaching-and-application-use",
+    "topics": [
+      {
+        "id": "transported_arithmetic",
+        "disposition": "suitable-bounded-scalar-and-selected-formula-source",
+        "next_material": "Prerequisite/notation bridge and finer concept routes."
+      },
+      {
+        "id": "gain_chains",
+        "disposition": "suitable-standalone-educational-demonstration",
+        "next_material": "Observable/log-state replacement diagram and transfer question."
+      },
+      {
+        "id": "power_laws",
+        "disposition": "suitable-standalone-educational-demonstration",
+        "next_material": "Coordinate model, error-model decision diagram and probability prerequisite route."
+      },
+      {
+        "id": "parallel_resistance",
+        "disposition": "suitable-bounded-circuit-implementation-source",
+        "next_material": "Two-branch model and conductance update trace."
+      }
+    ],
+    "findings": [
+      {
+        "id": "P-01",
+        "priority": "P2",
+        "finding": "Prerequisites are listed but not connected to a short notation and learning route.",
+        "proposed_repair": "One concise bridge page within existing foundations, linked by concept.",
+        "owner": "Professor teaching specification; Alphy subject content."
+      },
+      {
+        "id": "P-02",
+        "priority": "P2",
+        "finding": "Global catalogue has only four broad concept groups and omits source IDs for some topic references; book coverage fields need alignment.",
+        "proposed_repair": "Curate exact concept aliases/routes and stable source IDs from existing references.",
+        "owner": "Builder integration; Professor retrieval review; subject producer locator check."
+      },
+      {
+        "id": "P-03",
+        "priority": "P2",
+        "finding": "No per-topic register distinguishes Professor source review from specialist material review.",
+        "proposed_repair": "Compact commit/topic/reviewer/disposition/evidence/open-gap record.",
+        "owner": "Caesar routes missing review; Professor and domain specialist supply their own findings; Builder maintains links."
+      },
+      {
+        "id": "P-04",
+        "priority": "P3",
+        "finding": "No explanatory system diagrams or model plots in inspected topics/notebooks.",
+        "proposed_repair": "Use one diagram for a stated learning question; retain editable source and verify destination rendering.",
+        "owner": "Professor visual learning design; domain producer semantic labels."
+      },
+      {
+        "id": "P-05",
+        "priority": "P3",
+        "finding": "Existing worked exercises do not demonstrate transfer to a different problem.",
+        "proposed_repair": "One transfer and misconception check per application with answer rubric.",
+        "owner": "Professor task design; Alphy domain check."
+      }
+    ]
+  },
+  "subject_specialist": {
+    "role": "Temporary Alpha subject specialist using Alphy method",
+    "decision": "Suitable bounded application/computational library; not a complete or sole Alpha Calculus reference",
+    "topics": [
+      {
+        "topic": "transported_arithmetic",
+        "status": "usable-with-declared-limits",
+        "use": "Scalar operations and intermediate traces",
+        "limits": "Three declared generators only; finite scalar encodings; not general differentiation or symbolic calculus"
+      },
+      {
+        "topic": "gain_chains",
+        "status": "usable-with-declared-limits",
+        "use": "Positive multiplicative composition, known-stage update, range and cancellation teaching",
+        "limits": "Positive dimensionless factors; bounded power-of-two workload; cached conventional baselines match asymptotics"
+      },
+      {
+        "topic": "power_laws",
+        "status": "usable-with-declared-limits",
+        "use": "Log-log representation, elasticity, fitting assumptions and mean/median",
+        "limits": "Positive dimensionless ratios and chosen data; no empirical validation or novel estimator"
+      },
+      {
+        "topic": "parallel_resistance",
+        "status": "usable-with-declared-limits",
+        "use": "Fixed positive resistance bank and failure-atomic updates",
+        "limits": "Restricted reciprocal transport; no full Alpha field, infinite resistance, complex impedance or dynamic topology; conventional conductance cache matches cost"
+      }
+    ],
+    "priority_additions": [
+      {
+        "id": "public-function-transport",
+        "priority": 1,
+        "gap": "General function directions and derivative assumptions mainly remain in private math-report route",
+        "proposal": "One shared original functions-and-derivatives page, linked from the existing topic",
+        "domain_owner": "Alphy",
+        "other_review": "Professor source/exposition review",
+        "new_profile_needed": false
+      },
+      {
+        "id": "shared-information-bridge",
+        "priority": 2,
+        "gap": "Public log-odds/surprisal material is brief checks rather than full retrievable lesson",
+        "proposal": "One domain/base/units lesson with intermediate values and clear distinctions",
+        "domain_owner": "Alphy for Alpha formulation",
+        "other_review": "Shanny for information interpretation; statistical specialist for material GLM inference"
+      },
+      {
+        "id": "catalogue-reference-coverage",
+        "priority": 2,
+        "gap": "MIT, Shannon, R and Python sys sources exist in topic Markdown but not root source list",
+        "proposal": "Add source records with existing inspection state and topic-to-source IDs; flag R-devel version status"
+      }
+    ],
+    "next_contribution": {
+      "title": "Transported functions: coordinates, derivatives and their conditions",
+      "proposed_repository_path": "topics/transported_arithmetic/functions_and_derivatives.md",
+      "optional_wiki_title": "Transported-functions-and-derivatives",
+      "primary_routes_to_reconsult": [
+        "Printed p. 128 / PDF p. 137",
+        "Printed pp. 131-133 / PDF pp. 140-142",
+        "Printed pp. 168-170 / PDF pp. 177-179"
+      ],
+      "visual": "Labelled commutative square connecting observable and coordinate spaces, supported by adjacent mathematical formulae and text",
+      "acceptance_checks": [
+        "Recover f from F with correct types and domain",
+        "Exponential square agrees with existing formula check",
+        "Distinguish elasticity b, Alpha derivative exp(b), ordinary derivative",
+        "Reject an invalid composition without an unstated extension",
+        "Explain cube-generator chain-rule failure analytically and check against primary definition",
+        "Render Mermaid and LaTeX in selected destination with equivalent text",
+        "User reviews Wiki proposal and controls publication"
+      ],
+      "additional_application_notebook_required": false
+    }
+  },
+  "inspected_source_records": {
+    "professor": [
+      {
+        "path": "AGENTS.md",
+        "scope": "Full repository guidance.",
+        "sha256": "0b31432ffcf03d49322d7b92940c86dbec73af26db9d16d5e0d0403ee0d3ff6b",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/AGENTS.md"
+      },
+      {
+        "path": "README.md",
+        "scope": "Entry routes, applications, maintenance, reuse and status.",
+        "sha256": "9553214fc652f052b95ab0b99a6f3cd82cf5aaa1ac00b0b90b3b7370c8d0a0a4",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/README.md"
+      },
+      {
+        "path": "CONCEPTS.md",
+        "scope": "Full concept routes, scope and proposed-resource process.",
+        "sha256": "2048e30c363acc7d7e4532423bda92bc8b80526b017d37292f97fedf9c602782",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/CONCEPTS.md"
+      },
+      {
+        "path": "SOURCES.md",
+        "scope": "Full provenance guide and primary reference scope.",
+        "sha256": "e23ec27d19d06fb3e099e9cb681bebc53f9457494a005a39860b849e8081abee",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/SOURCES.md"
+      },
+      {
+        "path": "RESULTS.md",
+        "scope": "Recorded execution, helper checks and application limits.",
+        "sha256": "90090981720c2d254e9eebe24091712d07e9418c7cc7f93ab6cc75f0336bf143",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/RESULTS.md"
+      },
+      {
+        "path": "REPRODUCIBILITY.md",
+        "scope": "Full reproduction and snapshot guidance.",
+        "sha256": "039b538796eda0bbb9f2e376327e2b03df27aed6c73681c301b5c59dd09b6a52",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/REPRODUCIBILITY.md"
+      },
+      {
+        "path": "sources.json",
+        "scope": "Source IDs, concept groups, provenance scope and execution routes.",
+        "sha256": "3e03a5cc36fc7fe1bed17dd040e2f24830fef63781fb7f3ecf874c79d8762d0c",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/sources.json"
+      },
+      {
+        "path": "topics/transported_arithmetic/README.md",
+        "scope": "Full topic guide or concept-to-source references.",
+        "sha256": "3e0e2d1f9c3ae4036260bdfe5f78b80cf84debf660116f4ebdedb427abe9a999",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/transported_arithmetic/README.md"
+      },
+      {
+        "path": "topics/transported_arithmetic/references.md",
+        "scope": "Full topic guide or concept-to-source references.",
+        "sha256": "4a91ad441b878425ecec9606094c435c8f27bb79d2a9207b70aba463a16c4fbb",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/transported_arithmetic/references.md"
+      },
+      {
+        "path": "topics/gain_chains/README.md",
+        "scope": "Full topic guide or concept-to-source references.",
+        "sha256": "0d2d0e9c40bdde7bd72a50d8f01483c7bace9884288cd1a7be928eea8069b058",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/gain_chains/README.md"
+      },
+      {
+        "path": "topics/gain_chains/references.md",
+        "scope": "Full topic guide or concept-to-source references.",
+        "sha256": "d1d95d2a99f79ac13b2ea0e252592a10aa698a4c3d59a62a9e241e1863b1eb6e",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/gain_chains/references.md"
+      },
+      {
+        "path": "topics/power_laws/README.md",
+        "scope": "Full topic guide or concept-to-source references.",
+        "sha256": "cef5ed3695afcef93cf404b5bf85d725bff2c23ef33d1025571ef289fe685fde",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/power_laws/README.md"
+      },
+      {
+        "path": "topics/power_laws/references.md",
+        "scope": "Full topic guide or concept-to-source references.",
+        "sha256": "58e414391c764ce72a9d3e08a6bb384aa274b5a452678bf66f8ab6a6b6d9e414",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/power_laws/references.md"
+      },
+      {
+        "path": "topics/parallel_resistance/README.md",
+        "scope": "Full topic guide or concept-to-source references.",
+        "sha256": "d0e023edf77a0ed22b4f344410ce9f2b86cccca9b5fabf8204d00abae02ed0d0",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/parallel_resistance/README.md"
+      },
+      {
+        "path": "topics/parallel_resistance/references.md",
+        "scope": "Full topic guide or concept-to-source references.",
+        "sha256": "89dc169b3c970db895b14839b5d29991a1bf4b8734942dd464b0a0c7e433b08b",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/parallel_resistance/references.md"
+      },
+      {
+        "path": "topics/transported_arithmetic/local_annotations.md",
+        "scope": "Full local annotation scope and formula discussion; original PDF not reopened.",
+        "sha256": "6d718d634e7a7f90f1f7ac267777ab4f2794ff95f467342fe24c319d40bceb14",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/transported_arithmetic/local_annotations.md"
+      },
+      {
+        "path": "topics/transported_arithmetic/alpha_transport.py",
+        "scope": "Public calculate contract, validation/result flow and demonstration; not a full line-by-line audit.",
+        "sha256": "77150a88cc547e7e17ffcbaacd60e49c1bb4c53b43851d709f39cb1a7cc45159",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/transported_arithmetic/alpha_transport.py"
+      },
+      {
+        "path": "topics/transported_arithmetic/check_formulas.py",
+        "scope": "Selected formula-check code: first100lines and170-215; output scope and destination.",
+        "sha256": "49662d3f54b813351d81bc19b4c7c8cd72252c6e1148205050f26906ebcd3af8",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/transported_arithmetic/check_formulas.py"
+      },
+      {
+        "path": "topics/parallel_resistance/parallel_resistance.py",
+        "scope": "Lines1-145: domain validation, public class/interface obligations and update contract.",
+        "sha256": "b90d07778705729bbf45a6606e23e3be61bd149a10d753ffbac80566af8e2f1f",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/parallel_resistance/parallel_resistance.py"
+      },
+      {
+        "path": "topics/gain_chains/notebook.ipynb",
+        "scope": "All Markdown cells; first9lines of each code cell for teaching sequence and representative computation.",
+        "sha256": "985fee996dcfa0211dcbac090839b8377a5c798163515bd947c4277ac08a9d56",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/gain_chains/notebook.ipynb"
+      },
+      {
+        "path": "topics/power_laws/notebook.ipynb",
+        "scope": "All Markdown cells; first9lines of each code cell for teaching sequence and representative computation.",
+        "sha256": "d30c61781ae737ec20cb4587c2779bff2fb24bcdfb8a5c5569c5cd9ba940a600",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/power_laws/notebook.ipynb"
+      },
+      {
+        "path": "topics/gain_chains/results/execution.json",
+        "scope": "Source-hash and record-structure check; gain execution, standalone and migration also inspected in full.",
+        "sha256": "6e6e3f1a3b6239f5e02691ab1afac8130b1dbb1c9f2478939187e1d80df1d31d",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/gain_chains/results/execution.json"
+      },
+      {
+        "path": "topics/gain_chains/results/standalone.json",
+        "scope": "Source-hash and record-structure check; gain execution, standalone and migration also inspected in full.",
+        "sha256": "1602ed35a17531e1bdc7018f79240b649475a74890fb6b4e8d686dea0e12f196",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/gain_chains/results/standalone.json"
+      },
+      {
+        "path": "topics/gain_chains/results/companion.json",
+        "scope": "Source-hash and record-structure check; gain execution, standalone and migration also inspected in full.",
+        "sha256": "fba30ed011b7c810c3cf27c62cb545e4eca0ec4992da9679f4e597ba313b0b6b",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/gain_chains/results/companion.json"
+      },
+      {
+        "path": "topics/gain_chains/results/migration.json",
+        "scope": "Source-hash and record-structure check; gain execution, standalone and migration also inspected in full.",
+        "sha256": "3b427ee2c418c53d1587df10b7cead12705a61a3ed0d72b0d11022d866edad7d",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/gain_chains/results/migration.json"
+      },
+      {
+        "path": "topics/power_laws/results/execution.json",
+        "scope": "Source-hash and record-structure check; gain execution, standalone and migration also inspected in full.",
+        "sha256": "ea4ce5d18cac26d70dee1989f4a7055d2ba561b6233dc5e1c755172905cc00c2",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/power_laws/results/execution.json"
+      },
+      {
+        "path": "topics/power_laws/results/standalone.json",
+        "scope": "Source-hash and record-structure check; gain execution, standalone and migration also inspected in full.",
+        "sha256": "e1b9ea8a7902d98220ba999a26a67975ed871c0e6e5dc5e8e52ad532394a7612",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/power_laws/results/standalone.json"
+      },
+      {
+        "path": "topics/power_laws/results/companion.json",
+        "scope": "Source-hash and record-structure check; gain execution, standalone and migration also inspected in full.",
+        "sha256": "22981dd5224657a1a3c2338560862ea7ed97fa47fe3600a46accf939a3456e3d",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/power_laws/results/companion.json"
+      },
+      {
+        "path": "topics/power_laws/results/migration.json",
+        "scope": "Source-hash and record-structure check; gain execution, standalone and migration also inspected in full.",
+        "sha256": "a92b20cec8fc4164489fad8988c7375674607a9729fb6d37fdf9b6b06e0654cb",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/power_laws/results/migration.json"
+      },
+      {
+        "path": "topics/transported_arithmetic/results/verification.json",
+        "scope": "Full execution scope, command/record metadata and source-hash check.",
+        "sha256": "f980fede855e41326db3c5ffdb1ba0f7b0ee6119175b8e5c82dd369a831aa8ef",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/transported_arithmetic/results/verification.json"
+      },
+      {
+        "path": "topics/parallel_resistance/results/verification.json",
+        "scope": "Full execution scope, command/record metadata and source-hash check.",
+        "sha256": "4600f7f5a25ec4634ebba324c5f35b8673ae1aa9aa84de96dced358cbedf0b0c",
+        "url": "https://github.com/JulTob/Alpha-Calculus/blob/3c7c8235e12bff89a14f57b6f480d70c7557e94f/topics/parallel_resistance/results/verification.json"
+      }
+    ],
+    "subject_specialist": [
+      {
+        "path": "AGENTS.md",
+        "sha256": "0b31432ffcf03d49322d7b92940c86dbec73af26db9d16d5e0d0403ee0d3ff6b"
+      },
+      {
+        "path": "CONCEPTS.md",
+        "sha256": "2048e30c363acc7d7e4532423bda92bc8b80526b017d37292f97fedf9c602782"
+      },
+      {
+        "path": "sources.json",
+        "sha256": "3e03a5cc36fc7fe1bed17dd040e2f24830fef63781fb7f3ecf874c79d8762d0c"
+      },
+      {
+        "path": "topics/transported_arithmetic/README.md",
+        "sha256": "3e0e2d1f9c3ae4036260bdfe5f78b80cf84debf660116f4ebdedb427abe9a999"
+      },
+      {
+        "path": "topics/transported_arithmetic/references.md",
+        "sha256": "4a91ad441b878425ecec9606094c435c8f27bb79d2a9207b70aba463a16c4fbb"
+      },
+      {
+        "path": "topics/transported_arithmetic/local_annotations.md",
+        "sha256": "6d718d634e7a7f90f1f7ac267777ab4f2794ff95f467342fe24c319d40bceb14"
+      },
+      {
+        "path": "topics/transported_arithmetic/alpha_transport.py",
+        "sha256": "77150a88cc547e7e17ffcbaacd60e49c1bb4c53b43851d709f39cb1a7cc45159"
+      },
+      {
+        "path": "topics/transported_arithmetic/test_alpha_transport.py",
+        "sha256": "086c65355bfaaa4b370aa719c3d933466dd0d078ce17f1e1d69c69af7eec66df"
+      },
+      {
+        "path": "topics/transported_arithmetic/check_formulas.py",
+        "sha256": "49662d3f54b813351d81bc19b4c7c8cd72252c6e1148205050f26906ebcd3af8"
+      },
+      {
+        "path": "topics/transported_arithmetic/results/verification.json",
+        "sha256": "f980fede855e41326db3c5ffdb1ba0f7b0ee6119175b8e5c82dd369a831aa8ef"
+      },
+      {
+        "path": "topics/parallel_resistance/README.md",
+        "sha256": "d0e023edf77a0ed22b4f344410ce9f2b86cccca9b5fabf8204d00abae02ed0d0"
+      },
+      {
+        "path": "topics/parallel_resistance/references.md",
+        "sha256": "89dc169b3c970db895b14839b5d29991a1bf4b8734942dd464b0a0c7e433b08b"
+      },
+      {
+        "path": "topics/parallel_resistance/parallel_resistance.py",
+        "sha256": "b90d07778705729bbf45a6606e23e3be61bd149a10d753ffbac80566af8e2f1f"
+      },
+      {
+        "path": "topics/parallel_resistance/test_parallel_resistance.py",
+        "sha256": "97cc41a56220f64ced7ea07f2126741abbaca6aba30043d14dda6fe122f5ddae"
+      },
+      {
+        "path": "topics/parallel_resistance/run_workload.py",
+        "sha256": "c33b74465b39cde37a0af3a627be7459c1d16472945b93ea4055733a4fe8d30e"
+      },
+      {
+        "path": "topics/parallel_resistance/results/verification.json",
+        "sha256": "4600f7f5a25ec4634ebba324c5f35b8673ae1aa9aa84de96dced358cbedf0b0c"
+      },
+      {
+        "path": "topics/gain_chains/README.md",
+        "sha256": "0d2d0e9c40bdde7bd72a50d8f01483c7bace9884288cd1a7be928eea8069b058"
+      },
+      {
+        "path": "topics/gain_chains/references.md",
+        "sha256": "d1d95d2a99f79ac13b2ea0e252592a10aa698a4c3d59a62a9e241e1863b1eb6e"
+      },
+      {
+        "path": "topics/gain_chains/notebook.ipynb",
+        "sha256": "985fee996dcfa0211dcbac090839b8377a5c798163515bd947c4277ac08a9d56"
+      },
+      {
+        "path": "topics/gain_chains/results/execution.json",
+        "sha256": "6e6e3f1a3b6239f5e02691ab1afac8130b1dbb1c9f2478939187e1d80df1d31d"
+      },
+      {
+        "path": "topics/power_laws/README.md",
+        "sha256": "cef5ed3695afcef93cf404b5bf85d725bff2c23ef33d1025571ef289fe685fde"
+      },
+      {
+        "path": "topics/power_laws/references.md",
+        "sha256": "58e414391c764ce72a9d3e08a6bb384aa274b5a452678bf66f8ab6a6b6d9e414"
+      },
+      {
+        "path": "topics/power_laws/notebook.ipynb",
+        "sha256": "d30c61781ae737ec20cb4587c2779bff2fb24bcdfb8a5c5569c5cd9ba940a600"
+      },
+      {
+        "path": "topics/power_laws/results/execution.json",
+        "sha256": "ea4ce5d18cac26d70dee1989f4a7055d2ba561b6233dc5e1c755172905cc00c2"
+      }
+    ]
+  },
+  "tests_rerun_by_reviewers": false,
+  "external_primary_texts_reread": false,
+  "wiki_published": false,
+  "integration_repair": "Reconcile global source IDs and concept routes from the existing topic references; no source claims upgraded."
+}

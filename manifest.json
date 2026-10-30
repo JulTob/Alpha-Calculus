@@ -24,7 +24,7 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "0b31432ffcf03d49322d7b92940c86dbec73af26db9d16d5e0d0403ee0d3ff6b"
+      "sha256": "3f20ec310824f905fbc54bcc94b200e7c8412af6d99f9a5f8718160b1f4ce82c"
     },
     {
       "path": "CONCEPTS.md",
@@ -35,8 +35,12 @@
       "sha256": "1d9c4377004713cc1344c360370de51739fc33a35a86c558bb7d6c4c2deafe6e"
     },
     {
+      "path": "LIBRARY.md",
+      "sha256": "7b8269cb144404aac5e2b90be7418b30bdde84f0a483ac5abe1cfb3a2fadb42a"
+    },
+    {
       "path": "README.md",
-      "sha256": "9553214fc652f052b95ab0b99a6f3cd82cf5aaa1ac00b0b90b3b7370c8d0a0a4"
+      "sha256": "6063365b804ea7bae4f830c63b1464dd3b70d1197d9639944812cfa7b9d1f54a"
     },
     {
       "path": "REPRODUCIBILITY.md",
@@ -55,12 +59,16 @@
       "sha256": "547e291817d9b7a2be2f6ec80fa5dac841792de779e04a91f2d90f0f95d0cf63"
     },
     {
+      "path": "maintenance/library_review.json",
+      "sha256": "47e1cbc55998198f024e9bd80df2cb6a8f1791588392a982efd74ab40cdf1565"
+    },
+    {
       "path": "maintenance/run_notebooks.py",
       "sha256": "a8f1954e8201d20decf7f8bb0cdcc7604fa2effcd145da738fdf2fac9295788c"
     },
     {
       "path": "maintenance/validation.json",
-      "sha256": "05b3a4084e2be96a37a08ac4a5c4d4d19b90f300bc840d155c3261ed5b92aed8"
+      "sha256": "bfb8d59c2e1a2cdd3962864ccd482ea1d93615c3339706623d2a8dadf8784ca1"
     },
     {
       "path": "requirements.txt",
@@ -68,7 +76,7 @@
     },
     {
       "path": "sources.json",
-      "sha256": "3e03a5cc36fc7fe1bed17dd040e2f24830fef63781fb7f3ecf874c79d8762d0c"
+      "sha256": "f68a3cff323d900ea69e72d1d737b14fc2ed5d3755cd469f742da25933dd076d"
     },
     {
       "path": "topics/gain_chains/README.md",

@@ -32,5 +32,19 @@ guidance and `maintenance/` for repository-wide checks and generation.
 Publish useful snippets as runnable topic scripts with explicit inputs
 and limits. Keep generated script companions aligned with their notebooks.
 
+Before adopting a new source topic or a material addition, obtain
+Professor's source/teaching review and the relevant specialist's review
+of definitions, methods and necessary materials. Record the intended
+use, inspected revision, coverage, gaps and targeted repairs in the
+[shared-library record](LIBRARY.md). Recheck affected claims when they
+change; do not treat the whole repository as approved for every purpose.
+
+Consult the user's Wiki-Documentation for reusable visual authoring
+patterns. Use Mermaid concept/system models, LaTeX and computed plots
+when they clarify a relationship. Retain editable sources, labels, units
+and a text equivalent; preview the actual destination and distinguish
+GitHub, Colab and Quarto checks. Retrieve sources on demand and avoid
+duplicating complete libraries in each agent or local working copy.
+
 Prepare reusable Wiki content for Julio's review. A local change or pull
 request does not authorise Wiki publication or establish approved canon.

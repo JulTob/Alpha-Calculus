@@ -71,7 +71,7 @@
       "role": "external-primary-reference",
       "title": "Georgiev and Aydin, Alpha Calculus (2026)",
       "url": "https://doi.org/10.1201/9781003750734",
-      "scope": "Printed pp. 1–2, 128, 169–170; local annotations also discuss p. 266.",
+      "scope": "Selected printed pp. 1–4, 128, 131–133, 168–170 and 265–266; exact locators and local annotations in topic reference pages. Previously inspected passages, not a fresh full-book review.",
       "local_guide": "SOURCES.md",
       "full_text_distributed": false
     },
@@ -131,6 +131,39 @@
       "title": "European Commission English Style Guide (21 November 2025)",
       "url": "https://knowledge-centre-translation-interpretation.ec.europa.eu/sites/default/files/ckeditor5-files/styleguide_english_dgt_en.pdf",
       "scope": "Introduction, General1.1 and Spelling3.1-3.4: clear international prose, Irish/British usage and consistent -ise spelling. General language conventions applied alongside scientific terminology."
+    },
+    {
+      "id": "shannon-1948",
+      "role": "external-primary-reference",
+      "title": "Claude E. Shannon, A Mathematical Theory of Communication (1948), corrected reprint",
+      "url": "https://engineering.purdue.edu/~mrb/resources/InfoF/Shannon_A-Mathematical-Theory-of-Communication.pdf",
+      "scope": "Reprint p. 1 and section 6, p. 11, Theorem 2; information units and binary entropy. Previously consulted, reindexed here.",
+      "local_guide": "topics/transported_arithmetic/references.md"
+    },
+    {
+      "id": "mit-conductance",
+      "role": "external-primary-reference",
+      "title": "Karl K. Berggren, MIT 6.200: Beginning Circuit Analysis, 14 February 2023",
+      "url": "https://circuits.mit.edu/_static/S23/handouts/lec02a/lecture02a.pdf",
+      "scope": "p. 7, Conductance; reciprocal resistance and parallel addition. Previously consulted, reindexed here.",
+      "local_guide": "topics/parallel_resistance/references.md"
+    },
+    {
+      "id": "r-link-functions",
+      "role": "external-primary-reference",
+      "title": "R stats: family and make.link",
+      "url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/make.link.html",
+      "related_url": "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/family.html",
+      "scope": "linkfun, linkinv and mu.eta; previously consulted R-devel reference, not an executed R-version claim.",
+      "local_guide": "topics/transported_arithmetic/references.md"
+    },
+    {
+      "id": "python-float-info",
+      "role": "external-primary-reference",
+      "title": "Python 3.14: sys.float_info",
+      "url": "https://docs.python.org/3.14/library/sys.html#sys.float_info",
+      "scope": "Machine epsilon used by the cancellation guard; no general error certificate.",
+      "local_guide": "topics/parallel_resistance/references.md"
     }
   ],
   "proposals": {
@@ -161,5 +194,73 @@
       "One self-contained notebook per application where useful",
       "results/: generated evidence for the topic"
     ]
-  }
+  },
+  "library_review": "LIBRARY.md",
+  "review_record": "maintenance/library_review.json",
+  "consultation_routes": [
+    {
+      "id": "function-transport",
+      "aliases": [
+        "conjugation",
+        "forward map",
+        "inverse map",
+        "derivative conditions"
+      ],
+      "reading": "topics/transported_arithmetic/references.md",
+      "source_ids": [
+        "alpha-calculus-2026"
+      ],
+      "computation": "topics/transported_arithmetic/check_formulas.py",
+      "limits": "Selected formula checks and local notes; fuller public foundation lesson remains proposed."
+    },
+    {
+      "id": "log-odds-information",
+      "aliases": [
+        "logit",
+        "surprisal",
+        "binary entropy",
+        "information units"
+      ],
+      "reading": "topics/transported_arithmetic/references.md",
+      "source_ids": [
+        "shannon-1948",
+        "r-link-functions"
+      ],
+      "computation": "topics/transported_arithmetic/check_formulas.py",
+      "limits": "Bounded identities; not a full information-theory lesson or fitted GLM."
+    },
+    {
+      "id": "parallel-conductance",
+      "aliases": [
+        "reciprocal resistance",
+        "conductance cache",
+        "cancellation"
+      ],
+      "reading": "topics/parallel_resistance/README.md",
+      "source_ids": [
+        "mit-conductance",
+        "python-float-info",
+        "python-math"
+      ],
+      "computation": "topics/parallel_resistance/parallel_resistance.py",
+      "limits": "Positive finite fixed bank and known index; conventional cache has the same complexity."
+    },
+    {
+      "id": "power-law-errors",
+      "aliases": [
+        "elasticity",
+        "mean and median",
+        "lognormal",
+        "fitting criterion"
+      ],
+      "reading": "topics/power_laws/README.md",
+      "source_ids": [
+        "nist-power-calibration",
+        "nist-lognormal",
+        "nist-transformations"
+      ],
+      "computation": "topics/power_laws/example.py",
+      "limits": "Chosen positive dimensionless demonstration data; no empirical validation."
+    }
+  ]
 }
