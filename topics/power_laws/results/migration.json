@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "topic": "power_laws",
+  "utc": "2026-10-30T10:56:09.972523+00:00",
+  "python": "3.14.3",
+  "implementation": "CPython",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "notebook": "topics/power_laws/notebook.ipynb",
+  "notebook_sha256": "d30c61781ae737ec20cb4587c2779bff2fb24bcdfb8a5c5569c5cd9ba940a600",
+  "code_cells_executed": 13,
+  "colab_live_execution": false,
+  "baseline_revision": "0a42a5d84c90b56ac84bb1388694f48b38e61e4b",
+  "baseline_notebook": "notebooks/power_laws_and_elasticity.ipynb",
+  "numerical_code_ast_unchanged": true,
+  "allowed_code_change": "RESULTS = Path(\"results\") in the new topic working directory.",
+  "csv_bytes_and_check_summary_match_baseline": true,
+  "compared_data_files": [
+    "power_fit.csv",
+    "power_criteria.csv",
+    "power_coordinates.csv",
+    "checks.json",
+    "power_mean_median.csv"
+  ],
+  "runner_default_and_explicit_all_passed": true,
+  "runner_individual_selection_passed": true,
+  "self_review": "Calculation, seeds, guards, assertions and tolerances preserved; execution is sequential Python exec, not a Jupyter kernel or live Colab."
+}

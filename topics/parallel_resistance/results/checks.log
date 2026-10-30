@@ -1,0 +1,80 @@
+{
+  "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "seed_rule": "random.Random(20261029 + n)",
+  "workload": "Initialize n independent resistances uniformly in [10, 1000] ohm. For each of 256 updates, select a known integer index, replace its resistance with a fresh value in that interval, and query the equivalent.",
+  "counts_measure": "Actual production helper calls and lengths of inputs passed to math.fsum. These are work indicators, not timings or counts of machine instructions.",
+  "competent_conventional_baseline": "Maintain the same sum of conductances: O(n) construction, O(1) update/query, O(n) memory; identical asymptotic performance.",
+  "cases": [
+    {
+      "n": 8,
+      "updates_and_queries": 256,
+      "incremental": {
+        "conductance_evaluations_including_construction": 264,
+        "fsum_terms_including_construction": 776,
+        "update_fsum_terms_each": 3
+      },
+      "recompute_each_query": {
+        "conductance_evaluations_excluding_initial_validation": 2048,
+        "fsum_terms": 2048
+      },
+      "max_relative_error_against_fresh_fsum": 1.7448772222946309e-15,
+      "first_update_trace": {
+        "index": 1,
+        "old_conductance": 0.00265520104559474,
+        "new_conductance": 0.0017257721466096766,
+        "total_before": 0.017287451819862684,
+        "total_after": 0.01635802292087762,
+        "equivalent_resistance": 61.13208208821541
+      },
+      "final_equivalent_resistance_ohm": 47.103015970712825
+    },
+    {
+      "n": 128,
+      "updates_and_queries": 256,
+      "incremental": {
+        "conductance_evaluations_including_construction": 384,
+        "fsum_terms_including_construction": 896,
+        "update_fsum_terms_each": 3
+      },
+      "recompute_each_query": {
+        "conductance_evaluations_excluding_initial_validation": 32768,
+        "fsum_terms": 32768
+      },
+      "max_relative_error_against_fresh_fsum": 1.5229601327954978e-15,
+      "first_update_trace": {
+        "index": 110,
+        "old_conductance": 0.0013274500609282548,
+        "new_conductance": 0.004154145007776575,
+        "total_before": 0.305040187125966,
+        "total_after": 0.3078668820728143,
+        "equivalent_resistance": 3.248157103703956
+      },
+      "final_equivalent_resistance_ohm": 1.645825690825338
+    },
+    {
+      "n": 2048,
+      "updates_and_queries": 256,
+      "incremental": {
+        "conductance_evaluations_including_construction": 2304,
+        "fsum_terms_including_construction": 2816,
+        "update_fsum_terms_each": 3
+      },
+      "recompute_each_query": {
+        "conductance_evaluations_excluding_initial_validation": 524288,
+        "fsum_terms": 524288
+      },
+      "max_relative_error_against_fresh_fsum": 1.475521180613811e-15,
+      "first_update_trace": {
+        "index": 488,
+        "old_conductance": 0.0034583484563809963,
+        "new_conductance": 0.0022824080193484014,
+        "total_before": 9.858449070996057,
+        "total_after": 9.857273130559024,
+        "equivalent_resistance": 0.10144793461184007
+      },
+      "final_equivalent_resistance_ohm": 0.10345881027777255
+    }
+  ]
+}

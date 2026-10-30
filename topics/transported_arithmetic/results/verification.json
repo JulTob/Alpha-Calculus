@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-10-30T10:56:45.716645+00:00",
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.14.3",
+    "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "working_directory": "Temporary directory outside the repository",
+  "scope": "Fresh standard-library tests and bounded formula or workload checks; no installed agent or live Colab test.",
+  "commands": [
+    {
+      "command_from_repository_root": "python3 -B topics/transported_arithmetic/test_alpha_transport.py",
+      "return_code": 0,
+      "output": "results/tests.log",
+      "tests_passed": 14
+    },
+    {
+      "command_from_repository_root": "python3 -B topics/transported_arithmetic/check_formulas.py",
+      "return_code": 0,
+      "output": "results/checks.log"
+    }
+  ],
+  "source_sha256": {
+    "alpha_transport.py": "77150a88cc547e7e17ffcbaacd60e49c1bb4c53b43851d709f39cb1a7cc45159",
+    "check_formulas.py": "49662d3f54b813351d81bc19b4c7c8cd72252c6e1148205050f26906ebcd3af8",
+    "test_alpha_transport.py": "086c65355bfaaa4b370aa719c3d933466dd0d078ce17f1e1d69c69af7eec66df"
+  },
+  "preserved_helper_semantics": [
+    {
+      "file": "alpha_transport.py",
+      "original_sha256": "77150a88cc547e7e17ffcbaacd60e49c1bb4c53b43851d709f39cb1a7cc45159",
+      "ast_identical_to_previous_project_helper": true
+    },
+    {
+      "file": "test_alpha_transport.py",
+      "original_sha256": "086c65355bfaaa4b370aa719c3d933466dd0d078ce17f1e1d69c69af7eec66df",
+      "ast_identical_to_previous_project_helper": true
+    }
+  ],
+  "previous_bounded_results_reproduced": true
+}

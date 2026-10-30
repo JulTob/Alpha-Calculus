@@ -17,7 +17,7 @@ import traceback
 
 APPLICATIONS = {
     "gains": "gain_chains",
-    "power-laws": "power_laws_and_elasticity",
+    "power-laws": "power_laws",
     }
 
 
@@ -62,8 +62,9 @@ def execute_cell(
 
 def execute_notebook(root, name):
     """Run one application and retain its own execution record and outputs."""
-    path = root / "notebooks" / f"{name}.ipynb"
-    os.chdir(root)
+    topic = root / "topics" / name
+    path = topic / "notebook.ipynb"
+    os.chdir(topic)
     notebook = json.loads(path.read_text(encoding="utf-8"))
     for cell in notebook["cells"]:
         if cell["cell_type"] == "code":
@@ -101,7 +102,7 @@ def execute_notebook(root, name):
             "mode": "Sequential Python exec in a fresh namespace; no Jupyter kernel.",
             "colab_live_execution": False,
             }
-        destination = root / "results" / name / "execution.json"
+        destination = topic / "results" / "execution.json"
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(
                 json.dumps(record, ensure_ascii=False, indent=2) + "\n",

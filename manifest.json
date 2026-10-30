@@ -6,11 +6,11 @@
     "hash_algorithm": "sha256",
     "scope": "Reviewed file bytes, excluding manifest.json and .git.",
     "refresh": "Explicit after reviewed changes; runner does not refresh this manifest.",
-    "guide": "docs/environment.md#snapshots-and-execution-records"
+    "guide": "REPRODUCIBILITY.md#snapshots-and-execution-records"
   },
   "applications": [
     "gain_chains",
-    "power_laws_and_elasticity"
+    "power_laws"
   ],
   "source_catalog": "sources.json",
   "independent_notebooks": true,
@@ -24,109 +24,231 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "a5a345cd8add5bed61aee82acc7d47ce198804b328728166c341606fd4703abf"
+      "sha256": "0b31432ffcf03d49322d7b92940c86dbec73af26db9d16d5e0d0403ee0d3ff6b"
+    },
+    {
+      "path": "CONCEPTS.md",
+      "sha256": "2048e30c363acc7d7e4532423bda92bc8b80526b017d37292f97fedf9c602782"
+    },
+    {
+      "path": "EDITORIAL_STYLE.md",
+      "sha256": "1d9c4377004713cc1344c360370de51739fc33a35a86c558bb7d6c4c2deafe6e"
     },
     {
       "path": "README.md",
-      "sha256": "2ec1c388122f4dd8984ae7119a6fd91b4e09c4e6fc2dbf2767d2e427fd531c21"
+      "sha256": "9553214fc652f052b95ab0b99a6f3cd82cf5aaa1ac00b0b90b3b7370c8d0a0a4"
     },
     {
-      "path": "docs/editorial_style.md",
-      "sha256": "752325eb6527862f1dcdd81d2d426ce6e59fc1c005c0b637f3e8c75f4b6d2ec9"
+      "path": "REPRODUCIBILITY.md",
+      "sha256": "039b538796eda0bbb9f2e376327e2b03df27aed6c73681c301b5c59dd09b6a52"
     },
     {
-      "path": "docs/environment.md",
-      "sha256": "37f2e8cdd0988f3acd66f9c4b7525767ed52b0f2888ff2bdd225031556e32477"
+      "path": "RESULTS.md",
+      "sha256": "90090981720c2d254e9eebe24091712d07e9418c7cc7f93ab6cc75f0336bf143"
     },
     {
-      "path": "docs/index.md",
-      "sha256": "98f9c3cf2d05fa931268fa687b2cfe5e4e01d2ac85ddc5886d15f3fc8e443288"
+      "path": "SOURCES.md",
+      "sha256": "e23ec27d19d06fb3e099e9cb681bebc53f9457494a005a39860b849e8081abee"
     },
     {
-      "path": "docs/local_annotations.md",
-      "sha256": "6d718d634e7a7f90f1f7ac267777ab4f2794ff95f467342fe24c319d40bceb14"
+      "path": "maintenance/export_examples.py",
+      "sha256": "547e291817d9b7a2be2f6ec80fa5dac841792de779e04a91f2d90f0f95d0cf63"
     },
     {
-      "path": "docs/results.md",
-      "sha256": "af09147e3dd64db552637bd43b60fe6eac2845f7a85745bfb0cb33bfedde94e1"
+      "path": "maintenance/run_notebooks.py",
+      "sha256": "a8f1954e8201d20decf7f8bb0cdcc7604fa2effcd145da738fdf2fac9295788c"
     },
     {
-      "path": "docs/sources.md",
-      "sha256": "334ec027a9cbd2a129140c7f07e2e51745bb7d2d294d617fc116dac5566e801a"
-    },
-    {
-      "path": "notebooks/gain_chains.ipynb",
-      "sha256": "b9d04a647d12e52b23e6d5e6871689c73c2b24e65683c150aecd03c8719d7290"
-    },
-    {
-      "path": "notebooks/power_laws_and_elasticity.ipynb",
-      "sha256": "1f917603e5960406fd7fa04c2b954b3448fb68a002a46cdeab7983ec96e09dc5"
+      "path": "maintenance/validation.json",
+      "sha256": "05b3a4084e2be96a37a08ac4a5c4d4d19b90f300bc840d155c3261ed5b92aed8"
     },
     {
       "path": "requirements.txt",
       "sha256": "8696c0e373463f63c839a0d22434eae3f50aeeca3d7c41745d3e790d27794afb"
     },
     {
-      "path": "results/gain_chains/checks.json",
+      "path": "sources.json",
+      "sha256": "3e03a5cc36fc7fe1bed17dd040e2f24830fef63781fb7f3ecf874c79d8762d0c"
+    },
+    {
+      "path": "topics/gain_chains/README.md",
+      "sha256": "0d2d0e9c40bdde7bd72a50d8f01483c7bace9884288cd1a7be928eea8069b058"
+    },
+    {
+      "path": "topics/gain_chains/example.py",
+      "sha256": "3349a3ad628982f535241788f0d16aacabb30884db5ec57479542efcaa2ac690"
+    },
+    {
+      "path": "topics/gain_chains/notebook.ipynb",
+      "sha256": "985fee996dcfa0211dcbac090839b8377a5c798163515bd947c4277ac08a9d56"
+    },
+    {
+      "path": "topics/gain_chains/references.md",
+      "sha256": "d1d95d2a99f79ac13b2ea0e252592a10aa698a4c3d59a62a9e241e1863b1eb6e"
+    },
+    {
+      "path": "topics/gain_chains/results/checks.json",
       "sha256": "3f0a85a2bfc87c007f69aee3c7a3545dd3b842010117a977d50414584e0991d5"
     },
     {
-      "path": "results/gain_chains/execution.json",
-      "sha256": "e97a035109d169a9699d40b257a1f5eca9ee53b3b497a70583f02c8433973e7f"
+      "path": "topics/gain_chains/results/companion.json",
+      "sha256": "fba30ed011b7c810c3cf27c62cb545e4eca0ec4992da9679f4e597ba313b0b6b"
     },
     {
-      "path": "results/gain_chains/gain_range.csv",
+      "path": "topics/gain_chains/results/execution.json",
+      "sha256": "6e6e3f1a3b6239f5e02691ab1afac8130b1dbb1c9f2478939187e1d80df1d31d"
+    },
+    {
+      "path": "topics/gain_chains/results/gain_range.csv",
       "sha256": "1bf6623ae3917799e6828e9d6885933dd2daf40de5b951ba3e46a53da6ade4ab"
     },
     {
-      "path": "results/gain_chains/gain_stages.csv",
+      "path": "topics/gain_chains/results/gain_stages.csv",
       "sha256": "e912ee5cb1cd338ef25f11ec33c672c457081d091b838bfadc8518aa423323b9"
     },
     {
-      "path": "results/gain_chains/standalone.json",
-      "sha256": "ef2a4ff99f707a500b12c4da601df5c7351adc472053b7718f3b57c9721a39d3"
+      "path": "topics/gain_chains/results/migration.json",
+      "sha256": "3b427ee2c418c53d1587df10b7cead12705a61a3ed0d72b0d11022d866edad7d"
     },
     {
-      "path": "results/power_laws_and_elasticity/checks.json",
+      "path": "topics/gain_chains/results/standalone.json",
+      "sha256": "1602ed35a17531e1bdc7018f79240b649475a74890fb6b4e8d686dea0e12f196"
+    },
+    {
+      "path": "topics/parallel_resistance/README.md",
+      "sha256": "d0e023edf77a0ed22b4f344410ce9f2b86cccca9b5fabf8204d00abae02ed0d0"
+    },
+    {
+      "path": "topics/parallel_resistance/parallel_resistance.py",
+      "sha256": "b90d07778705729bbf45a6606e23e3be61bd149a10d753ffbac80566af8e2f1f"
+    },
+    {
+      "path": "topics/parallel_resistance/references.md",
+      "sha256": "89dc169b3c970db895b14839b5d29991a1bf4b8734942dd464b0a0c7e433b08b"
+    },
+    {
+      "path": "topics/parallel_resistance/results/checks.log",
+      "sha256": "822482f386c6c68555d3aa45ed089cafa661b146bb9ee6e5630ed26b73b4cd97"
+    },
+    {
+      "path": "topics/parallel_resistance/results/tests.log",
+      "sha256": "e7a41f97e1ae68d10ff5e779cf584e45dafb3718f9aea5909e11d73067bfd735"
+    },
+    {
+      "path": "topics/parallel_resistance/results/verification.json",
+      "sha256": "4600f7f5a25ec4634ebba324c5f35b8673ae1aa9aa84de96dced358cbedf0b0c"
+    },
+    {
+      "path": "topics/parallel_resistance/results/workload-results.json",
+      "sha256": "822482f386c6c68555d3aa45ed089cafa661b146bb9ee6e5630ed26b73b4cd97"
+    },
+    {
+      "path": "topics/parallel_resistance/run_workload.py",
+      "sha256": "c33b74465b39cde37a0af3a627be7459c1d16472945b93ea4055733a4fe8d30e"
+    },
+    {
+      "path": "topics/parallel_resistance/test_parallel_resistance.py",
+      "sha256": "97cc41a56220f64ced7ea07f2126741abbaca6aba30043d14dda6fe122f5ddae"
+    },
+    {
+      "path": "topics/power_laws/README.md",
+      "sha256": "cef5ed3695afcef93cf404b5bf85d725bff2c23ef33d1025571ef289fe685fde"
+    },
+    {
+      "path": "topics/power_laws/example.py",
+      "sha256": "078c9f79d7e884733389840c8fb23d977fc6cf2c3ab7d101395e664bc7deafd9"
+    },
+    {
+      "path": "topics/power_laws/notebook.ipynb",
+      "sha256": "d30c61781ae737ec20cb4587c2779bff2fb24bcdfb8a5c5569c5cd9ba940a600"
+    },
+    {
+      "path": "topics/power_laws/references.md",
+      "sha256": "58e414391c764ce72a9d3e08a6bb384aa274b5a452678bf66f8ab6a6b6d9e414"
+    },
+    {
+      "path": "topics/power_laws/results/checks.json",
       "sha256": "9e5236db7c0befd06c7b150959617ed043178542c79276165aee4f0c63bea80d"
     },
     {
-      "path": "results/power_laws_and_elasticity/execution.json",
-      "sha256": "7e874a6760855d6aef53df9ed785d01edd78e6c732da15c932a2682e86c50e4a"
+      "path": "topics/power_laws/results/companion.json",
+      "sha256": "22981dd5224657a1a3c2338560862ea7ed97fa47fe3600a46accf939a3456e3d"
     },
     {
-      "path": "results/power_laws_and_elasticity/power_coordinates.csv",
+      "path": "topics/power_laws/results/execution.json",
+      "sha256": "ea4ce5d18cac26d70dee1989f4a7055d2ba561b6233dc5e1c755172905cc00c2"
+    },
+    {
+      "path": "topics/power_laws/results/migration.json",
+      "sha256": "a92b20cec8fc4164489fad8988c7375674607a9729fb6d37fdf9b6b06e0654cb"
+    },
+    {
+      "path": "topics/power_laws/results/power_coordinates.csv",
       "sha256": "3454e6dab0b6dc487e86ac286cf83d1f5e5e862d6901d98c0755ef749747d7ea"
     },
     {
-      "path": "results/power_laws_and_elasticity/power_criteria.csv",
+      "path": "topics/power_laws/results/power_criteria.csv",
       "sha256": "5af0a413a21452236c9969387f38ac482b300c17889797eb695bd1ceb89602ea"
     },
     {
-      "path": "results/power_laws_and_elasticity/power_fit.csv",
+      "path": "topics/power_laws/results/power_fit.csv",
       "sha256": "51bfc4bd75c04ea0c15cf420c23b812e027625de03217c3b83ea6810d0dccb48"
     },
     {
-      "path": "results/power_laws_and_elasticity/power_mean_median.csv",
+      "path": "topics/power_laws/results/power_mean_median.csv",
       "sha256": "c259ec12fe96ac41c3e76647d5fd6b6a67be6117c50d3276a38fbf2c76474f32"
     },
     {
-      "path": "results/power_laws_and_elasticity/standalone.json",
-      "sha256": "250371530a341936d29fac8e4a60e0c0406095c92c97761660a93241fde24ef6"
+      "path": "topics/power_laws/results/standalone.json",
+      "sha256": "e1b9ea8a7902d98220ba999a26a67975ed871c0e6e5dc5e8e52ad532394a7612"
     },
     {
-      "path": "results/validation.json",
-      "sha256": "a1797020a496769bd35cdab5c278c6a947d81a4c383423bdd9ff9e40d4929763"
+      "path": "topics/transported_arithmetic/README.md",
+      "sha256": "3e0e2d1f9c3ae4036260bdfe5f78b80cf84debf660116f4ebdedb427abe9a999"
     },
     {
-      "path": "scripts/run_notebooks.py",
-      "sha256": "48d064c3ff422ea290f2de2a52ad25550e7cdffd0532d7a40952d387d16230a4"
+      "path": "topics/transported_arithmetic/alpha_transport.py",
+      "sha256": "77150a88cc547e7e17ffcbaacd60e49c1bb4c53b43851d709f39cb1a7cc45159"
     },
     {
-      "path": "sources.json",
-      "sha256": "8a146615d6296d006fcac217817aaae993a8ada202cfe1cfd2201b5eac4be998"
+      "path": "topics/transported_arithmetic/check_formulas.py",
+      "sha256": "49662d3f54b813351d81bc19b4c7c8cd72252c6e1148205050f26906ebcd3af8"
+    },
+    {
+      "path": "topics/transported_arithmetic/local_annotations.md",
+      "sha256": "6d718d634e7a7f90f1f7ac267777ab4f2794ff95f467342fe24c319d40bceb14"
+    },
+    {
+      "path": "topics/transported_arithmetic/references.md",
+      "sha256": "4a91ad441b878425ecec9606094c435c8f27bb79d2a9207b70aba463a16c4fbb"
+    },
+    {
+      "path": "topics/transported_arithmetic/results/checks.log",
+      "sha256": "593402d26b0d26b5adb5a5e927deb75be78095500e218e71582b6b94c6401d8d"
+    },
+    {
+      "path": "topics/transported_arithmetic/results/formula-results.json",
+      "sha256": "593402d26b0d26b5adb5a5e927deb75be78095500e218e71582b6b94c6401d8d"
+    },
+    {
+      "path": "topics/transported_arithmetic/results/tests.log",
+      "sha256": "40619ed887681d031efaa1d4125469f65f787e53343e1f8db32fafc854cfa476"
+    },
+    {
+      "path": "topics/transported_arithmetic/results/verification.json",
+      "sha256": "f980fede855e41326db3c5ffdb1ba0f7b0ee6119175b8e5c82dd369a831aa8ef"
+    },
+    {
+      "path": "topics/transported_arithmetic/test_alpha_transport.py",
+      "sha256": "086c65355bfaaa4b370aa719c3d933466dd0d078ce17f1e1d69c69af7eec66df"
     }
   ],
   "language": "en-GB",
-  "editorial_policy": "docs/editorial_style.md"
+  "editorial_policy": "EDITORIAL_STYLE.md",
+  "topics": [
+    "transported_arithmetic",
+    "gain_chains",
+    "power_laws",
+    "parallel_resistance"
+  ]
 }

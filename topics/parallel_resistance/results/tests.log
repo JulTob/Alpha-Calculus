@@ -1,0 +1,13 @@
+test_deterministic_updates_match_fresh_fsum (__main__.ParallelResistanceTests.test_deterministic_updates_match_fresh_fsum) ... ok
+test_invalid_construction (__main__.ParallelResistanceTests.test_invalid_construction) ... ok
+test_invalid_update_preserves_all_state (__main__.ParallelResistanceTests.test_invalid_update_preserves_all_state) ... ok
+test_lost_small_branch_is_rejected_instead_of_returning_wrong_value (__main__.ParallelResistanceTests.test_lost_small_branch_is_rejected_instead_of_returning_wrong_value) ... ok
+test_single_branch_avoids_unnecessary_cancellation (__main__.ParallelResistanceTests.test_single_branch_avoids_unnecessary_cancellation) ... ok
+test_snapshot_cannot_mutate_state (__main__.ParallelResistanceTests.test_snapshot_cannot_mutate_state) ... ok
+test_total_overflow_update_preserves_state (__main__.ParallelResistanceTests.test_total_overflow_update_preserves_state) ... ok
+test_trace_matches_two_known_parallel_resistors (__main__.ParallelResistanceTests.test_trace_matches_two_known_parallel_resistors) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.015s
+
+OK

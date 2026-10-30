@@ -7,36 +7,48 @@ not establish that an agent is installed or has executed.
 
 ## Concepts and reading routes
 
+- **Generators, domains and scalar operations.** Start with
+  [transported arithmetic](topics/transported_arithmetic/README.md).
+  Its helper, tests, formula checks and exact references are in the same
+  directory. Identity, exponential and inverse-logit are implemented;
+  this is not a general symbolic calculus system.
 - **Exponential generator and positive composition.** Start with the
-  definitions and provenance in [sources](sources.md#alpha-framework).
+  definitions and provenance in [sources](SOURCES.md#alpha-framework).
   Then read sections 1 and 2 of
-  [gain chains](../notebooks/gain_chains.ipynb): `alpha = exp` makes
+  [gain chains](topics/gain_chains/notebook.ipynb): `alpha = exp` makes
   transported addition of positive values equivalent to multiplication.
 - **Incremental state, numerical range and precision.** Follow steps
   3–5 and the cancellation limitation in the same notebook. Consult its
-  [checks](../results/gain_chains/checks.json) and the
-  [results summary](results.md). Maintaining state provides the update
+  [checks](topics/gain_chains/results/checks.json) and the
+  [results summary](RESULTS.md). Maintaining state provides the update
   cost; product/quotient and the same conventional logarithmic method
   are appropriate baselines.
 - **Function transport and elasticity.** Read step 1 of
-  [power laws and elasticity](../notebooks/power_laws_and_elasticity.ipynb)
-  alongside the [composition annotations](local_annotations.md).
+  [power laws and elasticity](topics/power_laws/notebook.ipynb)
+  alongside the [composition annotations](topics/transported_arithmetic/local_annotations.md).
   For a positive power law, the log-log slope is `b`, while the Alpha
   derivative is `exp(b)`. These are distinct quantities.
 - **Fitting and returning to the original scale.** Continue with steps
   2–4 and the limitations in the power-law notebook. Consult its
-  [checks](../results/power_laws_and_elasticity/checks.json).
+  [checks](topics/power_laws/results/checks.json).
   Changing scale changes the error criterion. The stated relation
   between mean and median holds only under the declared lognormal model.
+- **Parallel resistance and maintained conductance.** Follow
+  [the circuit example](topics/parallel_resistance/README.md) for the
+  reciprocal-coordinate derivation, helper, tests and reproducible
+  workload. Construction costs O(n), a known-index replacement and query
+  cost O(1), and memory costs O(n). A conventional conductance cache has
+  the same asymptotic costs.
 
 The two notebooks are standalone: each application has its own Colab
-link, references and results directory. The
-[sources.json](../sources.json) catalogue identifies source paths and
+link, script companion, references and results directory. Browse
+`topics/` by subject rather than by file format. The
+[sources.json](sources.json) catalogue identifies source paths and
 roles; it does not replace reading their conditions.
 
 ## Primary references and original work
 
-[Sources and provenance](sources.md) records the consulted passages of
+[Sources and provenance](SOURCES.md) records the consulted passages of
 Georgiev and Aydin, *Alpha Calculus* (2026), alongside Python,
 NIST/SEMATECH and Colab documentation. These are external primary
 references for the definitions, models and tools identified there. The
@@ -44,7 +56,7 @@ repository neither distributes the book nor claims to have reviewed it
 in full.
 
 The notebooks, examples, educational derivations, code and results are
-this project's own work. The [local annotations](local_annotations.md)
+this project's own work. The [local annotations](topics/transported_arithmetic/local_annotations.md)
 are reader observations awaiting editorial confirmation, rather than
 official errata. Do not attribute the applications to the book or infer
 scientific priority from their inclusion here.
@@ -53,8 +65,8 @@ scientific priority from their inclusion here.
 
 **Demonstrated in these examples:** identities and assertions for two
 positive cases, local Python reproduction and separate tables. The
-records are described in [results](results.md) and
-[environment](environment.md). Saved outputs are evidence for the
+records are described in [results](RESULTS.md) and
+[environment](REPRODUCIBILITY.md). Saved outputs are evidence for the
 snapshots identified by their hashes; they are not a current execution
 by an agent consulting them.
 
@@ -95,7 +107,8 @@ Prepare a short, reviewable file or change proposal. Include:
 7. The suggested destination and what it adds to existing content.
 
 For another application, propose a standalone notebook with its own
-Colab link. For reusable knowledge, first propose a short text in
-`docs/` linked to the evidence. Julio decides acceptance and publication
-in the Wiki. Preparing a proposal or pull request does not authorise a
+Colab link. Place the explanation, exact references, runnable scripts,
+tests and evidence in its topic directory. Extend an existing topic
+when that improves the consultation route. Julio decides acceptance and
+publication in the Wiki. Preparing a proposal or pull request does not authorise a
 Wiki edit or make the content approved canon.

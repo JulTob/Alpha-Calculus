@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "topic": "gain_chains",
+  "utc": "2026-10-30T10:56:09.591377+00:00",
+  "python": "3.14.3",
+  "implementation": "CPython",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "notebook": "topics/gain_chains/notebook.ipynb",
+  "notebook_sha256": "985fee996dcfa0211dcbac090839b8377a5c798163515bd947c4277ac08a9d56",
+  "code_cells_executed": 10,
+  "colab_live_execution": false,
+  "baseline_revision": "0a42a5d84c90b56ac84bb1388694f48b38e61e4b",
+  "baseline_notebook": "notebooks/gain_chains.ipynb",
+  "numerical_code_ast_unchanged": true,
+  "allowed_code_change": "RESULTS = Path(\"results\") in the new topic working directory.",
+  "csv_bytes_and_check_summary_match_baseline": true,
+  "compared_data_files": [
+    "gain_range.csv",
+    "checks.json",
+    "gain_stages.csv"
+  ],
+  "runner_default_and_explicit_all_passed": true,
+  "runner_individual_selection_passed": true,
+  "self_review": "Calculation, seeds, guards, assertions and tolerances preserved; execution is sequential Python exec, not a Jupyter kernel or live Colab."
+}

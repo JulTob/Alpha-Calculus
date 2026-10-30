@@ -15,7 +15,7 @@ against pages **10–11**, **137** and **178–179** of the supplied PDF:
 Definitions 1.1.1, 1.1.5 and 4.1.1, Example 1.1.3, and equations 5.1–5.2
 with Example 5.1.2. The tutorials use the exponential generator, its
 inverse, transported addition and the direction of function transport.
-The PDF is not redistributed. The [local annotations](local_annotations.md)
+The PDF is not redistributed. The [local annotations](topics/transported_arithmetic/local_annotations.md)
 are distinguished from the published text and the tutorials' derivations.
 
 Each notebook includes its own references so that it can be read
@@ -39,7 +39,7 @@ attributed to the book or a claim of scientific novelty.
   exceptions were consulted. The documentation served identifies a
   Python 3.14 revision different from the local patch release; the
   executed runtime is recorded in
-  `results/<application>/execution.json`.
+  `topics/<topic>/results/execution.json`.
 - [Google Colab: frequently asked
   questions](https://research.google.com/colaboratory/faq.html), sections
   on ‘Using Colab’, notebook imports, shared outputs and runtimes. These
@@ -70,6 +70,23 @@ workload of **powers of two**. It is not extrapolated to arbitrary
 floating-point factors. The numerical range and cancellation
 counterexamples are executed within the tutorial. Numerical assertions
 do not replace algebraic derivations or prove general error bounds.
+
+## Topic reference routes
+
+Each topic keeps its exact source locators next to the code:
+
+- [Transported arithmetic](topics/transported_arithmetic/references.md):
+  scalar operations, function transport and local annotations.
+- [Gain chains](topics/gain_chains/references.md): positive composition,
+  maintained state and numerical limits.
+- [Power laws](topics/power_laws/references.md): elasticity, fitting
+  criteria and return to the original scale.
+- [Parallel resistance](topics/parallel_resistance/references.md):
+  reciprocal coordinates and the conventional conductance baseline.
+
+The code, tests, demonstrations and explanatory notes are original
+project material. External books remain references; their complete
+texts and page images are not included.
 
 ## Publication and possible extensions
 

@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-10-30T10:56:45.860018+00:00",
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.14.3",
+    "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "working_directory": "Temporary directory outside the repository",
+  "scope": "Fresh standard-library tests and bounded formula or workload checks; no installed agent or live Colab test.",
+  "commands": [
+    {
+      "command_from_repository_root": "python3 -B topics/parallel_resistance/test_parallel_resistance.py",
+      "return_code": 0,
+      "output": "results/tests.log",
+      "tests_passed": 8
+    },
+    {
+      "command_from_repository_root": "python3 -B topics/parallel_resistance/run_workload.py",
+      "return_code": 0,
+      "output": "results/checks.log"
+    }
+  ],
+  "source_sha256": {
+    "parallel_resistance.py": "b90d07778705729bbf45a6606e23e3be61bd149a10d753ffbac80566af8e2f1f",
+    "run_workload.py": "c33b74465b39cde37a0af3a627be7459c1d16472945b93ea4055733a4fe8d30e",
+    "test_parallel_resistance.py": "97cc41a56220f64ced7ea07f2126741abbaca6aba30043d14dda6fe122f5ddae"
+  },
+  "preserved_helper_semantics": [
+    {
+      "file": "parallel_resistance.py",
+      "original_sha256": "51071adc4f67a8a50544bde7c06cec32fbaec7ef70b51f404007f72b8fcbe988",
+      "ast_identical_to_previous_project_helper": true
+    },
+    {
+      "file": "test_parallel_resistance.py",
+      "original_sha256": "97cc41a56220f64ced7ea07f2126741abbaca6aba30043d14dda6fe122f5ddae",
+      "ast_identical_to_previous_project_helper": true
+    }
+  ],
+  "previous_bounded_workload_cases_reproduced": true,
+  "largest_observed_relative_error": 1.7448772222946309e-15
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "topic": "gain_chains",
+  "utc": "2026-10-30T10:56:09.591377+00:00",
+  "python": "3.14.3",
+  "implementation": "CPython",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "notebook": "topics/gain_chains/notebook.ipynb",
+  "notebook_sha256": "985fee996dcfa0211dcbac090839b8377a5c798163515bd947c4277ac08a9d56",
+  "code_cells_executed": 10,
+  "colab_live_execution": false,
+  "script": "topics/gain_chains/example.py",
+  "script_sha256": "3349a3ad628982f535241788f0d16aacabb30884db5ec57479542efcaa2ac690",
+  "export_check_passed": true,
+  "runs_from_unrelated_directory": true,
+  "downloaded_script_alone_passed": true,
+  "generated_data_match_notebook": true,
+  "differences_from_notebook": "Only the RESULTS directory assignment is script-relative."
+}

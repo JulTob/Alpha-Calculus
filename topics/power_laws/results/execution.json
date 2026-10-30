@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "application": "power_laws",
+  "notebook": "topics/power_laws/notebook.ipynb",
+  "utc": "2026-10-30T10:56:09.679638+00:00",
+  "python": "3.14.3",
+  "implementation": "CPython",
+  "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "code_cells_executed": 13,
+  "elapsed_seconds": 0.017634459014516324,
+  "notebook_sha256": "d30c61781ae737ec20cb4587c2779bff2fb24bcdfb8a5c5569c5cd9ba940a600",
+  "mode": "Sequential Python exec in a fresh namespace; no Jupyter kernel.",
+  "colab_live_execution": false
+}

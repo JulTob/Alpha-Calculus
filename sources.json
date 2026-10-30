@@ -2,21 +2,38 @@
   "schema_version": 1,
   "repository": "https://github.com/JulTob/Alpha-Calculus",
   "default_branch": "main",
-  "entrypoint": "docs/index.md",
-  "provenance_guide": "docs/sources.md",
-  "evidence_guide": "docs/results.md",
+  "entrypoint": "CONCEPTS.md",
+  "provenance_guide": "SOURCES.md",
+  "evidence_guide": "RESULTS.md",
   "concepts": [
+    {
+      "id": "transported-arithmetic",
+      "concepts": [
+        "Generators, domains and transported scalar operations",
+        "Function conjugation and local formula annotations"
+      ],
+      "entrypoint": "topics/transported_arithmetic/README.md",
+      "script": "topics/transported_arithmetic/alpha_transport.py",
+      "tests": "topics/transported_arithmetic/test_alpha_transport.py",
+      "references": "topics/transported_arithmetic/references.md",
+      "evidence_directory": "topics/transported_arithmetic/results",
+      "status": "tested-bounded-helper",
+      "limits": "Identity, exponential and inverse-logit generators only; scalar floating-point operations, not symbolic calculus."
+    },
     {
       "id": "positive-composition-and-state",
       "concepts": [
         "Exponential generator and transported addition",
         "Positive gain chains, numerical range and cancellation"
       ],
-      "notebook": "notebooks/gain_chains.ipynb",
-      "colab": "https://colab.research.google.com/github/JulTob/Alpha-Calculus/blob/main/notebooks/gain_chains.ipynb",
-      "evidence_directory": "results/gain_chains",
+      "notebook": "topics/gain_chains/notebook.ipynb",
+      "colab": "https://colab.research.google.com/github/JulTob/Alpha-Calculus/blob/main/topics/gain_chains/notebook.ipynb",
+      "evidence_directory": "topics/gain_chains/results",
       "status": "demonstrated-in-examples",
-      "limits": "Positive factors; power-of-two workload; no general error bound or exclusive complexity gain."
+      "limits": "Positive factors; power-of-two workload; no general error bound or exclusive complexity gain.",
+      "entrypoint": "topics/gain_chains/README.md",
+      "script": "topics/gain_chains/example.py",
+      "references": "topics/gain_chains/references.md"
     },
     {
       "id": "power-laws-and-model-assumptions",
@@ -24,11 +41,28 @@
         "Function transport and elasticity",
         "Error criteria, mean and median"
       ],
-      "notebook": "notebooks/power_laws_and_elasticity.ipynb",
-      "colab": "https://colab.research.google.com/github/JulTob/Alpha-Calculus/blob/main/notebooks/power_laws_and_elasticity.ipynb",
-      "evidence_directory": "results/power_laws_and_elasticity",
+      "notebook": "topics/power_laws/notebook.ipynb",
+      "colab": "https://colab.research.google.com/github/JulTob/Alpha-Calculus/blob/main/topics/power_laws/notebook.ipynb",
+      "evidence_directory": "topics/power_laws/results",
       "status": "demonstrated-in-examples",
-      "limits": "Positive dimensionless ratios; fixed demonstration data; no empirical model validation."
+      "limits": "Positive dimensionless ratios; fixed demonstration data; no empirical model validation.",
+      "entrypoint": "topics/power_laws/README.md",
+      "script": "topics/power_laws/example.py",
+      "references": "topics/power_laws/references.md"
+    },
+    {
+      "id": "parallel-resistance",
+      "concepts": [
+        "Reciprocal coordinates and conductance addition",
+        "Known-index incremental replacement with failure atomicity"
+      ],
+      "entrypoint": "topics/parallel_resistance/README.md",
+      "script": "topics/parallel_resistance/parallel_resistance.py",
+      "tests": "topics/parallel_resistance/test_parallel_resistance.py",
+      "references": "topics/parallel_resistance/references.md",
+      "evidence_directory": "topics/parallel_resistance/results",
+      "status": "tested-bounded-helper",
+      "limits": "Positive finite resistances, fixed size and known index; a conventional conductance cache has the same complexity."
     }
   ],
   "sources": [
@@ -38,7 +72,7 @@
       "title": "Georgiev and Aydin, Alpha Calculus (2026)",
       "url": "https://doi.org/10.1201/9781003750734",
       "scope": "Printed pp. 1–2, 128, 169–170; local annotations also discuss p. 266.",
-      "local_guide": "docs/sources.md",
+      "local_guide": "SOURCES.md",
       "full_text_distributed": false
     },
     {
@@ -79,15 +113,15 @@
     {
       "id": "local-annotations",
       "role": "original-local-notes",
-      "path": "docs/local_annotations.md",
+      "path": "topics/transported_arithmetic/local_annotations.md",
       "scope": "Reader annotations pending editorial confirmation; not official errata."
     },
     {
       "id": "application-demonstrations",
       "role": "original-didactic-work",
       "paths": [
-        "notebooks/gain_chains.ipynb",
-        "notebooks/power_laws_and_elasticity.ipynb"
+        "topics/gain_chains/notebook.ipynb",
+        "topics/power_laws/notebook.ipynb"
       ],
       "scope": "Derivations, examples, code and generated results; not cases attributed to the book."
     },
@@ -105,16 +139,27 @@
       "Public gain-chain workload and reconstruction policy",
       "Empirical power-law model with public data and justified noise"
     ],
-    "review_process": "docs/index.md#proposing-reusable-material",
+    "review_process": "CONCEPTS.md#proposing-reusable-material",
     "wiki_publication_authority": "Julio"
   },
   "execution": {
-    "runner": "scripts/run_notebooks.py",
-    "environment": "docs/environment.md",
+    "runner": "maintenance/run_notebooks.py",
+    "environment": "REPRODUCIBILITY.md",
     "manifest": "manifest.json",
     "live_colab_execution": false,
     "installed_agent_tested": false
   },
   "language": "en-GB",
-  "editorial_policy": "docs/editorial_style.md"
+  "editorial_policy": "EDITORIAL_STYLE.md",
+  "organisation": {
+    "principle": "Group resources by subject or application, not file format.",
+    "topic_root": "topics",
+    "topic_contents": [
+      "README.md: recognition, assumptions, steps and limits",
+      "references.md: exact sources and their scope",
+      "Runnable Python scripts and relevant tests",
+      "One self-contained notebook per application where useful",
+      "results/: generated evidence for the topic"
+    ]
+  }
 }

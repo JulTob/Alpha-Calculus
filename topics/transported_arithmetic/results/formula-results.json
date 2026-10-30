@@ -1,0 +1,39 @@
+{
+  "scope": "Bounded formula and example checks; not full-book validation.",
+  "python": "3.14.3",
+  "checks_passed": true,
+  "results": {
+    "correct_exp_square_derivative": 7.38905609894543,
+    "inverted_composition_domain_rejected": true,
+    "wrong_line_with_explicit_polynomial_extension": 0.9999999999000799,
+    "power_law_exp_alpha_derivative": 5.473947391690925,
+    "power_law_elasticity": 1.7,
+    "artanh_derivative_values_checked": [
+      -0.4,
+      0.0,
+      0.2,
+      0.5
+    ],
+    "tanh_integral_correct": 0.5000000000000012,
+    "tanh_integral_printed_factor": -0.14285714285714374,
+    "cube_generator_identity_derivative_at_zero": 1.000000000000002,
+    "cube_inverse_positive_difference_quotients": {
+      "0.001": 100.00000000000001,
+      "1e-06": 10000.000000000002,
+      "1e-09": 1000000.0000000003
+    },
+    "logit_sum_exact": "3/31",
+    "independent_union_exact": "11/25",
+    "logistic_ordinary_response_slope": 0.41618814662636167,
+    "logit_shift_alpha_derivative": 0.7310585786291101,
+    "cloglog_increment_ratio": 2.225540928492468,
+    "cloglog_interval_probability_ratio": 1.8161472182908187,
+    "shannon_log_odds_bits_at_p_08": 2.0000000000000004,
+    "shannon_entropy_bits_at_p_08": 0.7219280948873623,
+    "shannon_event_surprisal_bits_at_p_08": 0.3219280948873623,
+    "shannon_complement_surprisal_bits_at_p_08": 2.3219280948873626,
+    "parallel_resistance_100_200_ohms_exact": "200/3",
+    "parallel_conductance_siemens_exact": "3/200",
+    "parallel_open_circuit_neutral_extended_domain": 100.0
+  }
+}

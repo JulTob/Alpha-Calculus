@@ -1,14 +1,14 @@
 {
   "status": "passed",
   "application": "gain_chains",
-  "notebook": "notebooks/gain_chains.ipynb",
-  "utc": "2026-10-30T10:36:59.211664+00:00",
+  "notebook": "topics/gain_chains/notebook.ipynb",
+  "utc": "2026-10-30T10:56:09.294657+00:00",
   "python": "3.14.3",
   "implementation": "CPython",
   "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
   "code_cells_executed": 10,
-  "elapsed_seconds": 0.04235070801223628,
-  "notebook_sha256": "b9d04a647d12e52b23e6d5e6871689c73c2b24e65683c150aecd03c8719d7290",
+  "elapsed_seconds": 0.027397291996749118,
+  "notebook_sha256": "985fee996dcfa0211dcbac090839b8377a5c798163515bd947c4277ac08a9d56",
   "mode": "Sequential Python exec in a fresh namespace; no Jupyter kernel.",
   "colab_live_execution": false
 }

@@ -1,0 +1,19 @@
+test_additive_neutrals (__main__.TransportTests.test_additive_neutrals) ... ok
+test_coordinate_overflow (__main__.TransportTests.test_coordinate_overflow) ... ok
+test_divisor_is_alpha_zero (__main__.TransportTests.test_divisor_is_alpha_zero) ... ok
+test_exp_output_overflow_keeps_coordinate (__main__.TransportTests.test_exp_output_overflow_keeps_coordinate) ... ok
+test_exp_output_underflow_is_explicit (__main__.TransportTests.test_exp_output_underflow_is_explicit) ... ok
+test_exp_product_is_not_ordinary_product (__main__.TransportTests.test_exp_product_is_not_ordinary_product) ... ok
+test_exp_sum_is_product (__main__.TransportTests.test_exp_sum_is_product) ... ok
+test_identity_operations (__main__.TransportTests.test_identity_operations) ... ok
+test_input_domains (__main__.TransportTests.test_input_domains) ... ok
+test_logit_boundary_rounding_is_explicit (__main__.TransportTests.test_logit_boundary_rounding_is_explicit) ... ok
+test_logit_sum_has_exact_reference (__main__.TransportTests.test_logit_sum_has_exact_reference) ... ok
+test_multiplicative_neutrals (__main__.TransportTests.test_multiplicative_neutrals) ... ok
+test_types_and_nonfinite_inputs (__main__.TransportTests.test_types_and_nonfinite_inputs) ... ok
+test_unsupported_generator_or_operation (__main__.TransportTests.test_unsupported_generator_or_operation) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.001s
+
+OK
