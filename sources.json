@@ -183,7 +183,7 @@
     "installed_agent_tested": false
   },
   "language": "en-GB",
-  "editorial_policy": "EDITORIAL_STYLE.md",
+  "editorial_policy": "https://github.com/JulTob/Alpha-Calculus/wiki/Home#editorial-style",
   "organisation": {
     "principle": "Group resources by subject or application, not file format.",
     "topic_root": "topics",
@@ -193,7 +193,9 @@
       "Runnable Python scripts and relevant tests",
       "One self-contained notebook per application where useful",
       "results/: generated evidence for the topic"
-    ]
+    ],
+    "agent_instructions": ".agents/<agent>.md, isolated from topic explanations.",
+    "human_explanations": "Wiki pages with links to the code topic."
   },
   "library_review": "LIBRARY.md",
   "review_record": "maintenance/library_review.json",
@@ -262,5 +264,6 @@
       "computation": "topics/power_laws/example.py",
       "limits": "Chosen positive dimensionless demonstration data; no empirical validation."
     }
-  ]
+  ],
+  "agent_configuration": ".agents/README.md"
 }

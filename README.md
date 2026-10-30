@@ -137,4 +137,4 @@ under the [proposal process](CONCEPTS.md#proposing-reusable-material).
 No live Colab session has been tested. No licence has been selected, and
 the full text of the book is not distributed. The manifest describes a
 file snapshot; see [how to maintain it](REPRODUCIBILITY.md#snapshots-and-execution-records).
-The repository follows the [editorial style](EDITORIAL_STYLE.md).
+The repository follows the [editorial style](https://github.com/JulTob/Alpha-Calculus/wiki/Home#editorial-style).

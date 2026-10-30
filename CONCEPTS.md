@@ -4,12 +4,6 @@ Working source: [JulTob/Alpha-Calculus](https://github.com/JulTob/Alpha-Calculus
 `main` branch. Read by concept and check the scope of the evidence before
 reusing a claim. This index guides consultation of the content.
 
-<!--
-Agent guidance
-
-A source link does not establish that an agent is installed or has executed.
--->
-
 ## Concepts and reading routes
 
 - **Generators, domains and scalar operations.** Start with
@@ -114,11 +108,3 @@ For another application, propose a standalone notebook with its own
 Colab link. Place the explanation, exact references, runnable scripts,
 tests and evidence in its topic directory. Extend an existing topic
 when that improves the consultation route.
-
-<!--
-Agent guidance
-
-Julio decides acceptance and
-publication in the Wiki. Preparing a proposal or pull request does not authorise a
-Wiki edit or make the content approved canon.
--->

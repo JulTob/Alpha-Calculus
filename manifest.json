@@ -19,28 +19,52 @@
   "live_colab_execution": false,
   "files": [
     {
+      "path": ".agents/README.md",
+      "sha256": "7bd98e7137eae4c7828f1e3b102e17e45c75ff5186d1b705756a152a36ec04ae"
+    },
+    {
+      "path": ".agents/alphy.md",
+      "sha256": "a3c1bda3c2a4a56c6a9a16b6d640b6f0f6a3384fdf2c6d2e42498b1afd62ad28"
+    },
+    {
+      "path": ".agents/euly.md",
+      "sha256": "af5e2916c21164f3edbf49e34f711e5a3092b588ccb1c0a793e2fd4eb3359912"
+    },
+    {
+      "path": ".agents/mermy.md",
+      "sha256": "419f6fe1407fd9171256f263101d7744d4d8b68215ecb034ca7d85a39675f87b"
+    },
+    {
+      "path": ".agents/professor.md",
+      "sha256": "a38a9c15fb57747ddcff29da3f33bca4941f736cca130dae249a8577d0010a5e"
+    },
+    {
+      "path": ".agents/project.md",
+      "sha256": "125852ae8a58b028769a64e5e2ac1760e89f6c73585d690cc97a35fa690c45d7"
+    },
+    {
+      "path": ".agents/wiky.md",
+      "sha256": "22166573260c8296c8100c4c45194024082d81b8aebf753556d45dc914aaff08"
+    },
+    {
       "path": ".gitignore",
       "sha256": "dc52e67c7779612ee22a4b2ec51f09968b158bf0abffce41dc58b922c2d5ce32"
     },
     {
       "path": "AGENTS.md",
-      "sha256": "2c503c2b1b1ef27d20422391eb1a76b83b83d4ae5742eac7b4976678ed44b593"
+      "sha256": "63285e947b18aa3d38d85ab6ddad13a7b217288c630d4fdcbc16818183581184"
     },
     {
       "path": "CONCEPTS.md",
-      "sha256": "e8be2c7835e5c2968c8d00d1c630d842155fd66508f35a7756d3df679db3a7d3"
-    },
-    {
-      "path": "EDITORIAL_STYLE.md",
-      "sha256": "e3611bd6ff5db242fb0fb466e886619dab3adc43578df17170489b90dcc5cc06"
+      "sha256": "a1029aff898478b5bede3d03734d1c144f15c45167f85ff90543d6d88e04d31c"
     },
     {
       "path": "LIBRARY.md",
-      "sha256": "13760b447af2be583be01ce4469e2bd8bb7b1658b72029d9f11a34de914c1a4a"
+      "sha256": "a830432474867bccdbad789d343fb6577567a9decc5b5a7ff5fd9f1ddc10c208"
     },
     {
       "path": "README.md",
-      "sha256": "6063365b804ea7bae4f830c63b1464dd3b70d1197d9639944812cfa7b9d1f54a"
+      "sha256": "32539942c62b5f16e11d78e22fe9f7792edca24fba6834ab60aa94cb25c53c56"
     },
     {
       "path": "REPRODUCIBILITY.md",
@@ -76,7 +100,7 @@
     },
     {
       "path": "sources.json",
-      "sha256": "f68a3cff323d900ea69e72d1d737b14fc2ed5d3755cd469f742da25933dd076d"
+      "sha256": "fc824e4b64d7ab30108a66de456a2f52faedc516ca44d747c072137229609985"
     },
     {
       "path": "topics/gain_chains/README.md",
@@ -252,7 +276,7 @@
     }
   ],
   "language": "en-GB",
-  "editorial_policy": "EDITORIAL_STYLE.md",
+  "editorial_policy": "https://github.com/JulTob/Alpha-Calculus/wiki/Home#editorial-style",
   "topics": [
     "transported_arithmetic",
     "gain_chains",
