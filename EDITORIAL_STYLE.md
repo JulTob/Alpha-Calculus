@@ -24,5 +24,11 @@ Compare proposed benefits with a competent conventional baseline.
 Organise material by topic, with its explanation, runnable scripts,
 references, tests and results together. Keep each application in a
 standalone notebook with its own Colab link. Use short sections and readable
-intermediate steps. Prepare reusable Wiki content as a proposal for
+intermediate steps.
+
+<!--
+Agent guidance
+
+Prepare reusable Wiki content as a proposal for
 Julio's review; repository work alone does not authorise Wiki publication.
+-->

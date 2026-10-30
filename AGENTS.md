@@ -48,3 +48,17 @@ duplicating complete libraries in each agent or local working copy.
 
 Prepare reusable Wiki content for Julio's review. A local change or pull
 request does not authorise Wiki publication or establish approved canon.
+
+<!--
+Agent guidance
+
+For reader-facing Wiki and repository pages, we place agent-only
+assignments, routing and operating directions in HTML comments.
+We keep shared contributor rules and explanations in first-person
+plural. Scientific assumptions, sources, limitations and actual
+verification evidence remain visible. We deliver Wiki-ready pages
+for documentation and keep code resources linked from those pages.
+We consult raw Markdown for page-specific agent guidance, since rendered
+pages omit comments. Comments affect presentation; their contents remain
+available in raw source.
+-->

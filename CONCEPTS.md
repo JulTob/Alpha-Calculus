@@ -1,9 +1,14 @@
-# Concept index for Alphy and other agents
+# Concept index
 
 Working source: [JulTob/Alpha-Calculus](https://github.com/JulTob/Alpha-Calculus),
 `main` branch. Read by concept and check the scope of the evidence before
-reusing a claim. This index guides consultation of the content; it does
-not establish that an agent is installed or has executed.
+reusing a claim. This index guides consultation of the content.
+
+<!--
+Agent guidance
+
+A source link does not establish that an agent is installed or has executed.
+-->
 
 ## Concepts and reading routes
 
@@ -67,8 +72,7 @@ scientific priority from their inclusion here.
 positive cases, local Python reproduction and separate tables. The
 records are described in [results](RESULTS.md) and
 [environment](REPRODUCIBILITY.md). Saved outputs are evidence for the
-snapshots identified by their hashes; they are not a current execution
-by an agent consulting them.
+snapshots identified by their hashes; reading them is not a new execution.
 
 **Proposed:** an application to a relevant public workload for gain
 chains, and empirical validation of power laws with public data. There
@@ -87,7 +91,7 @@ Respect these limitations when extrapolating:
   general stability, novelty or an exclusive advantage over the
   conventional method.
 - Local execution uses the standard-library runner. It does not
-  establish a live Colab session, a Jupyter kernel or an installed agent.
+  establish a live Colab session or a Jupyter kernel.
 
 ## Proposing reusable material
 
@@ -109,6 +113,12 @@ Prepare a short, reviewable file or change proposal. Include:
 For another application, propose a standalone notebook with its own
 Colab link. Place the explanation, exact references, runnable scripts,
 tests and evidence in its topic directory. Extend an existing topic
-when that improves the consultation route. Julio decides acceptance and
+when that improves the consultation route.
+
+<!--
+Agent guidance
+
+Julio decides acceptance and
 publication in the Wiki. Preparing a proposal or pull request does not authorise a
 Wiki edit or make the content approved canon.
+-->
